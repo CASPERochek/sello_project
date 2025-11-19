@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Мой сайт{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'home' %}">Главная</a>
+        <a href="{% url 'about' %}">О нас</a>
+    </nav>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
