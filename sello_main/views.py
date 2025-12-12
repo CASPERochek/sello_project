@@ -105,7 +105,7 @@ def login_user(request):
                 'tokens': {
                     'refresh': str(refresh),
                     'access': str(refresh.access_token),
-                }
+                } 
             })
         else:
             return Response(

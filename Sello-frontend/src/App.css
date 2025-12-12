@@ -1,3 +1,4 @@
+/* Обновленные стили для Sidebar и контента */
 body {
   font-family: "Inter";
   font-size: 16px;
@@ -68,4 +69,429 @@ body {
 .home-image {
   max-width: 100%;
   height: auto;
+}
+
+/* Стили для Sidebar */
+.main-content-wrapper {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 70px;
+  padding: 20px;
+  background-color: #fffaf4;
+  min-height: 100vh;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-custom.expanded ~ .main-content {
+  margin-left: 250px;
+}
+
+/* Header должен сдвигаться вместе с контентом */
+.header-custom {
+  position: fixed;
+  top: 0;
+  left: 70px;
+  right: 0;
+  z-index: 1001;
+  background-color: #ffe082;
+  height: 56px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: left 0.3s ease;
+}
+
+.sidebar-custom.expanded ~ .header-custom {
+  left: 250px;
+}
+
+/* Hover эффекты для ссылок в Sidebar */
+.sidebar-menu-items a:hover {
+  background-color: #FFF9F0 !important;
+  color: #AA8144 !important;
+}
+
+/* Для страниц без Sidebar */
+.login-page .sidebar-custom,
+.register-page .sidebar-custom {
+  display: none;
+}
+
+.login-page .main-content,
+.register-page .main-content {
+  margin-left: 0 !important;
+  width: 100%;
+}
+
+.login-page .header-custom,
+.register-page .header-custom {
+  left: 0 !important;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+  .sidebar-custom {
+    display: none !important;
+  }
+  
+  .main-content {
+    margin-left: 0 !important;
+    padding: 15px;
+  }
+  
+  .header-custom {
+    left: 0 !important;
+  }
+}
+
+/* Для Home страницы без авторизации */
+.home-container:not(.authenticated) .sidebar-custom {
+  display: none !important;
+}
+
+.home-container:not(.authenticated) .main-content {
+  margin-left: 0 !important;
+}
+
+.home-container:not(.authenticated) .header-custom {
+  left: 0 !important;
+}
+
+
+/* Обновленные стили для Home с Sidebar */
+.home-container.authenticated {
+  position: relative;
+}
+
+.home-container.authenticated .main-content {
+  margin-left: 70px;
+  padding: 20px;
+  background-color: #fffaf4;
+  min-height: calc(100vh - 56px);
+  transition: margin-left 0.3s ease;
+  margin-top: 56px; /* Высота Header */
+}
+
+/* Когда Sidebar развернут */
+.home-container.authenticated .sidebar-custom.expanded ~ .main-content {
+  margin-left: 250px;
+}
+
+/* Для неавторизованных пользователей */
+.home-container:not(.authenticated) .container {
+  margin-top: 80px;
+}
+
+/* Кнопки */
+.btn-success {
+  background-color: #ff6f00 !important;
+  border-color: #ff6f00 !important;
+  border-radius: 20px !important;
+}
+
+.btn-success:hover {
+  background-color: #e65c00 !important;
+  border-color: #e65c00 !important;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .home-container.authenticated .main-content {
+    margin-left: 0 !important;
+    padding: 15px;
+  }
+  
+  .home-title {
+    font-size: 32px !important;
+  }
+  
+  .home-subtitle {
+    font-size: 20px !important;
+  }
+}
+
+
+/* Стили для Sidebar с наведением */
+.sidebar-custom {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 100vh;
+  background-color: #FFF;
+  border-right: 1px solid #EEE;
+  z-index: 1000;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.sidebar-custom:hover {
+  width: 250px;
+  box-shadow: 2px 0 15px rgba(0,0,0,0.1);
+}
+
+/* Контент с адаптивным отступом */
+.main-content {
+  margin-left: 70px;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #fffaf4;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar-custom:hover ~ .main-content {
+  margin-left: 250px;
+}
+
+/* Header с адаптивным отступом */
+.header-custom {
+  position: fixed;
+  top: 0;
+  left: 70px;
+  right: 0;
+  height: 56px;
+  background-color: #ffe082;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  transition: left 0.3s ease;
+}
+
+.sidebar-custom:hover ~ .header-custom {
+  left: 250px;
+}
+
+/* Для неавторизованных пользователей */
+.home-container:not(.authenticated) .sidebar-custom {
+  display: none;
+}
+
+.home-container:not(.authenticated) .main-content,
+.home-container:not(.authenticated) .header-custom {
+  margin-left: 0;
+  left: 0;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .sidebar-custom {
+    width: 0 !important;
+    display: none;
+  }
+  
+  .sidebar-custom:hover {
+    width: 0 !important;
+  }
+  
+  .main-content,
+  .header-custom {
+    margin-left: 0 !important;
+    left: 0 !important;
+  }
+}
+
+/* Плавная анимация для ссылок в Sidebar */
+.sidebar-menu-item {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Улучшение скроллбара для меню */
+.sidebar-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-menu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar-menu::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.sidebar-menu::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+/* Для страниц логина/регистрации */
+.login-page .sidebar-custom,
+.register-page .sidebar-custom {
+  display: none;
+}
+
+.login-page .main-content,
+.register-page .main-content,
+.login-page .header-custom,
+.register-page .header-custom {
+  margin-left: 0 !important;
+  left: 0 !important;
+}
+
+/* Стили для компактного Sidebar вверху */
+.sidebar-custom {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  width: 60px;
+  height: auto;
+  background-color: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 12px;
+  z-index: 1000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.sidebar-custom:hover {
+  width: 200px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Не нужно сдвигать контент при наведении */
+.main-content {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #fffaf4;
+}
+
+/* Header остается на своем месте */
+.header-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: #ffe082;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Для неавторизованных пользователей */
+.home-container:not(.authenticated) .sidebar-custom {
+  display: none;
+}
+
+/* Для страниц где Sidebar не нужен */
+.login-page .sidebar-custom,
+.register-page .sidebar-custom {
+  display: none;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .sidebar-custom {
+    display: none !important;
+  }
+}
+
+/* Анимация для ссылок */
+.sidebar-menu-item {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.sidebar-menu-item:hover {
+  transform: translateX(2px);
+}
+
+/* Home страница - основной контент */
+.home-container .main-content {
+  padding-top: 80px;
+}
+
+/* Для авторизованных пользователей на Home */
+.home-container.authenticated .main-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Стили для компактного Sidebar без шапки */
+.sidebar-custom {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  width: 60px;
+  height: auto;
+  background-color: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 12px;
+  z-index: 1000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.sidebar-custom:hover {
+  width: 200px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Стили для иконок в свернутом состоянии */
+.sidebar-custom .sidebar-menu-item {
+  justify-content: center;
+}
+
+.sidebar-custom:hover .sidebar-menu-item {
+  justify-content: flex-start;
+}
+
+/* Для активной ссылки */
+.sidebar-menu-item[style*="#AA8144"] {
+  background-color: #FFF4E5 !important;
+}
+
+/* Hover эффект */
+.sidebar-menu-item:hover {
+  background-color: #FFF9F0 !important;
+}
+
+/* Остальные стили остаются как были */
+.main-content {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #fffaf4;
+}
+
+.header-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background-color: #ffe082;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.home-container:not(.authenticated) .sidebar-custom {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidebar-custom {
+    display: none !important;
+  }
+}
+
+.home-container .main-content {
+  padding-top: 80px;
+}
+
+.home-container.authenticated .main-content {
+  padding-left: 20px;
+  padding-right: 20px;
 }
