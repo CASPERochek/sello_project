@@ -495,3 +495,70 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+
+
+
+
+
+/* Добавьте в конец файла App.css */
+
+/* Стили для лоадера */
+.vh-100 {
+  min-height: 100vh;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Улучшение для Home при загрузке */
+.home-container.authenticated .main-content {
+  margin-top: 56px; /* Высота Header */
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: calc(100vh - 56px);
+}
+
+.home-container:not(.authenticated) .container {
+  margin-top: 80px;
+}
+
+
+/* Добавьте в конец App.css */
+
+/* Базовые стили для лоадеров */
+.spinner-border.text-warning {
+  color: #ff6f00 !important;
+}
+
+/* Гарантируем что контейнеры занимают всю высоту */
+.home-container, 
+.brands-page-container,
+.news-page-container,
+.products-page-container {
+  min-height: 100vh;
+  background-color: #fffaf4;
+}
+
+/* Убедимся что контент виден */
+.main-content {
+  min-height: calc(100vh - 56px); /* минус высота header */
+}
+
+/* Улучшение видимости для отладки */
+.debug-border {
+  border: 1px solid red !important;
+}
+
+
+
+
+
+
+
+
+
+
+

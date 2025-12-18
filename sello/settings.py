@@ -404,6 +404,7 @@ MEDIA_URL = '/media/'  # URL префикс для медиа файлов
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Абсолютный путь на диске
 
 # Убедимся что папки существуют
+# В функции create_media_dirs() добавьте:
 def create_media_dirs():
     """Создает необходимые медиа директории"""
     directories = [
@@ -411,6 +412,8 @@ def create_media_dirs():
         os.path.join(MEDIA_ROOT, 'news'),
         os.path.join(MEDIA_ROOT, 'news', 'uploads'),
         os.path.join(MEDIA_ROOT, 'temp'),
+        os.path.join(MEDIA_ROOT, 'brands'),  # Добавлено
+        os.path.join(MEDIA_ROOT, 'brands', 'logos'),  # Добавлено
     ]
     
     for directory in directories:

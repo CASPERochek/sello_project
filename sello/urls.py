@@ -1,3 +1,4 @@
+# sello/urls.py (основной файл)
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -11,13 +12,8 @@ urlpatterns = [
 ]
 
 # Отдаём media и static в режиме разработки
-
-# ОБЯЗАТЕЛЬНО для медиафайлов в разработке
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-    print(f"📁 Media serving enabled: {settings.MEDIA_URL}")
-
-
-
-
-
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    print(f"📁 Media serving enabled: {settings.MEDIA_URL} -> {settings.MEDIA_ROOT}")
+    print(f"📁 Static serving enabled: {settings.STATIC_URL} -> {settings.STATIC_ROOT}")
