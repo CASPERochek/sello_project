@@ -3526,7 +3526,7 @@ const ProductsPage = () => {
             </div>
 
             {/* Панель информации */}
-            <div className="alert alert-info mb-4">
+            {/* <div className="alert alert-info mb-4">
               <div className="d-flex justify-content-between align-items-center">
                 <div>
                   <h5 className="mb-1">📦 Управление товарами</h5>
@@ -3561,7 +3561,7 @@ const ProductsPage = () => {
                   )}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Индикатор загрузки */}
             {loading && (

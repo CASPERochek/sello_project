@@ -1,7 +1,7 @@
-/* ProductsPage.css - ИСПРАВЛЕННАЯ ВЕРСИЯ */
+/* ProductsPage.css - ИСПРАВЛЕННАЯ ВЕРСИЯ
 
 /* Основные стили страницы товаров */
-.products-page-container {
+ .products-page-container {
   min-height: 100vh;
   background-color: #F8F5F0;
   overflow-x: hidden;
@@ -424,11 +424,11 @@
 .justify-content-end { justify-content: flex-end !important; }
 .align-items-center { align-items: center !important; }
 .align-items-end { align-items: flex-end !important; }
-.gap-2 { gap: 0.5rem !important; }
+.gap-2 { gap: 0.5rem !important; }S
 .gap-3 { gap: 1rem !important; }
 .rounded { border-radius: 8px !important; }
 .position-relative { position: relative !important; }
 .position-absolute { position: absolute !important; }
 .top-0 { top: 0 !important; }
 .end-0 { right: 0 !important; }
-.start-0 { left: 0 !important; }
+.start-0 { left: 0 !important; } 

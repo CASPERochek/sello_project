@@ -324,6 +324,7 @@ INSTALLED_APPS = [
     'sello_main',
     'sello_news',
     'sello_tovar',
+    'construct',
 ]
 
 MIDDLEWARE = [
@@ -517,6 +518,8 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
+
+
 # Custom user model
 AUTH_USER_MODEL = 'sello_main.CustomUser'
 
@@ -623,3 +626,6 @@ else:
     print(f"❌ MEDIA_ROOT не существует: {MEDIA_ROOT}")
 
 print("="*60 + "\n")
+
+
+

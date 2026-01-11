@@ -9,6 +9,7 @@ urlpatterns = [
     path('api/', include('sello_main.urls')),
     path('news/', include('sello_news.urls')),
     path('product/', include('sello_tovar.urls')),
+    path('constructor/', include('construct.urls')),
 ]
 
 # Отдаём media и static в режиме разработки

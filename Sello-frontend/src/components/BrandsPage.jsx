@@ -974,7 +974,7 @@ const BrandsPage = () => {
             </div>
 
             {/* Панель отладки */}
-            <div className="alert alert-info mb-4">
+            {/* <div className="alert alert-info mb-4">
               <div className="d-flex justify-content-between align-items-center">
                 <div>
                   <h5 className="mb-1">🏢 Система брендов</h5>
@@ -1009,7 +1009,7 @@ const BrandsPage = () => {
                   )}
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {loading && (
               <div className="text-center py-4">
