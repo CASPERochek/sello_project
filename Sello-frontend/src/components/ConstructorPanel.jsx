@@ -1,13 +1,13 @@
-// src/components/ConstructorPanel.jsx
 import React, { useState } from "react";
+import { apiService } from "../services/api";
 
 const blockPreviews = {
-  fourImages: "src/assets/images/four-images.svg",
-  singleImageLeft: "src/assets/images/single-image.svg",
-  imageRightText: "src/assets/images/image-right-text.svg",
-  twoImages: "src/assets/images/two-images.svg",
-  threeImages: "src/assets/images/three-images.svg",
-  bigLeftTwoSmall: "src/assets/images/big-left-two-small.svg",
+  fourImages: "/src/assets/images/four-images.svg",
+  singleImageLeft: "/src/assets/images/single-image.svg",
+  imageRightText: "/src/assets/images/image-right-text.svg",
+  twoImages: "/src/assets/images/two-images.svg",
+  threeImages: "/src/assets/images/three-images.svg",
+  bigLeftTwoSmall: "/src/assets/images/big-left-two-small.svg",
 };
 
 const ConstructorPanel = ({
@@ -29,12 +29,12 @@ const ConstructorPanel = ({
   const [showBgColorPicker, setShowBgColorPicker] = useState(false);
 
   const blockTypes = [
-    { id: "fourImages" },
-    { id: "singleImageLeft" },
-    { id: "imageRightText" },
-    { id: "twoImages" },
-    { id: "threeImages" },
-    { id: "bigLeftTwoSmall" },
+    { id: "fourImages", name: "4 изображения" },
+    { id: "singleImageLeft", name: "Изображение слева" },
+    { id: "imageRightText", name: "Текст + изображение" },
+    { id: "twoImages", name: "2 изображения" },
+    { id: "threeImages", name: "3 изображения" },
+    { id: "bigLeftTwoSmall", name: "Большое + 2 маленьких" },
   ];
 
   const additionalElements = [
@@ -43,11 +43,12 @@ const ConstructorPanel = ({
     { id: "button", label: "+ Добавить кнопку" },
   ];
 
+// src/components/ConstructorPanel.jsx - ОБНОВЛЕННАЯ handleSaveToFile
+
   const handleSaveToFile = async () => {
     try {
       if (!blocks || !Array.isArray(blocks)) {
         alert("Ошибка: нет данных для сохранения.");
-        console.log("blocks:", blocks);
         return;
       }
 
@@ -75,50 +76,57 @@ const ConstructorPanel = ({
       });
 
       const data = {
+        designName: designName || "Мой дизайн",
         blocks: cleanBlocks,
         textColor: textColor || "#000000",
         bgColor: bgColor || "#ffffff",
-        designName: designName || "Мой дизайн",
-        currentDesignId: currentDesignId || null,
-        savedAt: new Date().toISOString(),
-        version: '1.0'
+        metadata: {
+          savedAt: new Date().toISOString(),
+          version: '1.0',
+          savedFrom: "constructor_frontend"
+        }
       };
 
-      // Сначала сохраняем в БД, если есть текущий дизайн и пользователь авторизован
-      if (currentDesignId) {
-        try {
-          // Здесь можно добавить вызов API для обновления JSON в БД
-          // Например: await updateDesignWithJson(currentDesignId, {...}, data);
-          console.log("Данные для сохранения в БД:", {
-            name: designName,
-            blocks: cleanBlocks,
-            text_color: textColor,
-            bg_color: bgColor,
-            json_data: data
-          });
-          alert("💡 Подсказка: Сохраните дизайн в БД через кнопку 'Сохранить в БД' для полной интеграции");
-        } catch (dbError) {
-          console.warn("Не удалось сохранить в БД, продолжаем скачивание:", dbError);
+      // Если есть текущий дизайн и пользователь авторизован, предлагаем сохранить в БД
+      if (currentDesignId && apiService.isAuthenticated()) {
+        if (window.confirm("У вас есть сохраненный дизайн. Обновить его в базе данных?")) {
+          try {
+            const designData = {
+              name: designName || "Мой дизайн",
+              blocks: cleanBlocks,
+              text_color: textColor,
+              bg_color: bgColor,
+              metadata: {
+                ...data.metadata,
+                savedAsFile: true
+              }
+            };
+            await apiService.updateDesign(currentDesignId, designData);
+            alert("✅ Дизайн обновлен в БД!");
+          } catch (dbError) {
+            console.warn("Не удалось обновить в БД:", dbError);
+            alert(`⚠ Не удалось обновить в БД: ${dbError.message}`);
+          }
         }
       }
 
-      // Затем скачиваем файл
+      // Скачиваем файл
       const dataStr = JSON.stringify(data, null, 2);
       const blob = new Blob([dataStr], { type: "application/json" });
       const url = URL.createObjectURL(blob);
 
       const a = document.createElement("a");
       a.href = url;
-      a.download = `дизайн-${designName || 'страница'}.json`;
+      a.download = `дизайн-${designName || 'страница'}-${new Date().toISOString().slice(0, 10)}.json`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
 
-      alert("✅ Файл успешно сохранён!");
+      alert("✅ Файл успешно скачан!");
     } catch (err) {
       console.error("Ошибка при сохранении:", err);
-      alert(`❌ Ошибка при сохранении: ${err.message}`);
+      alert(`❌ Ошибка: ${err.message}`);
     }
   };
 
@@ -135,11 +143,16 @@ const ConstructorPanel = ({
               key={block.id}
               className="block-preview-item"
               onClick={() => onAddBlock(block.id)}
+              title={block.name}
             >
               <img
                 src={blockPreviews[block.id]}
-                alt=""
+                alt={block.name}
                 className="block-preview-image"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = "/src/assets/images/placeholder.svg";
+                }}
               />
             </div>
           ))}
@@ -164,60 +177,109 @@ const ConstructorPanel = ({
         <h6 className="mb-4 text-center">Оформление</h6>
         <div className="d-grid gap-2">
           <button
-            className="btn btn-outline-secondary text-start"
+            className="btn btn-outline-secondary text-start d-flex justify-content-between align-items-center"
             onClick={() => setShowTextColorPicker(true)}
           >
-            Цвет текста
+            <span>Цвет текста</span>
+            <div 
+              className="color-preview" 
+              style={{
+                width: "20px",
+                height: "20px",
+                backgroundColor: textColor,
+                border: "1px solid #ccc",
+                borderRadius: "3px"
+              }}
+            />
           </button>
           <button
-            className="btn btn-outline-secondary text-start"
+            className="btn btn-outline-secondary text-start d-flex justify-content-between align-items-center"
             onClick={() => setShowBgColorPicker(true)}
           >
-            Цвет фона
+            <span>Цвет фона</span>
+            <div 
+              className="color-preview" 
+              style={{
+                width: "20px",
+                height: "20px",
+                backgroundColor: bgColor,
+                border: "1px solid #ccc",
+                borderRadius: "3px"
+              }}
+            />
           </button>
         </div>
       </div>
 
       {/* Кнопка предпросмотра */}
       <div>
-        <button className="btn btn-outline-secondary w-100" onClick={onPreview}>
-          Предпросмотр
+        <button 
+          className="btn btn-outline-secondary w-100 mb-3"
+          onClick={onPreview}
+          disabled={blocks.length === 0}
+          title={blocks.length === 0 ? "Добавьте хотя бы один блок" : "Предпросмотр дизайна"}
+        >
+          👁️ Предпросмотр
         </button>
       </div>
 
       {/* Кнопки работы с БД */}
-      <div className="mt-4">
+      <div className="mt-4 border-top pt-3">
+        <h6 className="mb-3 text-center">Работа с базой данных</h6>
+        
         <button
-          className="btn btn-primary w-100 mb-2"
+          className="btn btn-primary w-100 mb-2 d-flex align-items-center justify-content-center gap-2"
           onClick={onOpenSaveModal}
-          disabled={isLoading}
+          disabled={isLoading || blocks.length === 0}
+          title={blocks.length === 0 ? "Добавьте хотя бы один блок" : "Сохранить дизайн в базу данных"}
         >
-          {isLoading ? "Сохранение..." : "Сохранить в БД"}
+          {isLoading ? (
+            <>
+              <span className="spinner-border spinner-border-sm" />
+              Сохранение...
+            </>
+          ) : (
+            <>
+              💾 Сохранить в БД
+            </>
+          )}
         </button>
         
         <button
-          className="btn btn-outline-primary w-100 mb-2"
+          className="btn btn-outline-primary w-100 mb-2 d-flex align-items-center justify-content-center gap-2"
           onClick={onOpenLoadModal}
           disabled={isLoading}
+          title="Загрузить сохраненные дизайны"
         >
-          Загрузить из БД
+          📂 Загрузить из БД
         </button>
         
         {currentDesignId && (
-          <button
-            className="btn btn-outline-success w-100 mb-2"
-            onClick={() => onDownloadJson && onDownloadJson(currentDesignId)}
-            disabled={isLoading}
-          >
-            Скачать JSON из БД
-          </button>
+          <>
+            <button
+              className="btn btn-outline-success w-100 mb-2 d-flex align-items-center justify-content-center gap-2"
+              onClick={() => onDownloadJson && onDownloadJson(currentDesignId)}
+              disabled={isLoading}
+              title="Скачать JSON файл из базы данных"
+            >
+              📥 Скачать JSON из БД
+            </button>
+            
+            <div className="alert alert-info small mb-2 p-2">
+              <small>
+                Текущий дизайн: <strong>{designName}</strong> (ID: {currentDesignId})
+              </small>
+            </div>
+          </>
         )}
         
         <button
-          className="btn btn-outline-secondary w-100"
+          className="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center gap-2"
           onClick={handleSaveToFile}
+          disabled={blocks.length === 0}
+          title={blocks.length === 0 ? "Добавьте хотя бы один блок" : "Скачать дизайн как JSON файл"}
         >
-          Скачать JSON файл
+          ⬇️ Скачать JSON файл
         </button>
       </div>
 
@@ -234,7 +296,8 @@ const ConstructorPanel = ({
             className="modal-content modal-content-narrow"
             onClick={(e) => e.stopPropagation()}
           >
-            <h5>{showTextColorPicker ? "Цвет текста" : "Цвет фона"}</h5>
+            <h5 className="mb-3">{showTextColorPicker ? "Выберите цвет текста" : "Выберите цвет фона"}</h5>
+            
             <input
               type="color"
               value={showTextColorPicker ? textColor : bgColor}
@@ -244,20 +307,50 @@ const ConstructorPanel = ({
               }}
               style={{
                 width: "100%",
-                height: "50px",
-                border: "1px solid #ccc",
-                borderRadius: "6px",
+                height: "60px",
+                border: "2px solid #ddd",
+                borderRadius: "8px",
+                cursor: "pointer",
+                marginBottom: "15px"
               }}
             />
-            <button
-              className="btn btn-secondary mt-3"
-              onClick={() => {
-                setShowTextColorPicker(false);
-                setShowBgColorPicker(false);
-              }}
-            >
-              Готово
-            </button>
+            
+            <div className="d-flex align-items-center mb-3">
+              <span className="me-2">Текущий цвет:</span>
+              <div 
+                style={{
+                  width: "30px",
+                  height: "30px",
+                  backgroundColor: showTextColorPicker ? textColor : bgColor,
+                  border: "1px solid #999",
+                  borderRadius: "4px"
+                }}
+              />
+              <code className="ms-2">
+                {showTextColorPicker ? textColor : bgColor}
+              </code>
+            </div>
+            
+            <div className="d-flex gap-2">
+              <button
+                className="btn btn-outline-secondary flex-grow-1"
+                onClick={() => {
+                  if (showTextColorPicker) setTextColor("#000000");
+                  else setBgColor("#ffffff");
+                }}
+              >
+                Сбросить
+              </button>
+              <button
+                className="btn btn-primary flex-grow-1"
+                onClick={() => {
+                  setShowTextColorPicker(false);
+                  setShowBgColorPicker(false);
+                }}
+              >
+                Применить
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -266,3 +359,8 @@ const ConstructorPanel = ({
 };
 
 export default ConstructorPanel;
+
+
+
+
+

@@ -3,10 +3,16 @@ from rest_framework.routers import DefaultRouter
 from . import views
 
 router = DefaultRouter()
-router.register(r'page-designs', views.PageDesignViewSet, basename='pagedesign')
-router.register(r'content-items', views.ContentItemViewSet, basename='contentitem')
+router.register(r'designs', views.PageDesignViewSet, basename='design')
+router.register(r'content', views.ContentItemViewSet, basename='content')
 
 urlpatterns = [
+    # API
     path('api/', include(router.urls)),
-    path('', views.constructor_view, name='constructor'),
+    
+    # Страницы
+    path('constructor/', views.constructor_view, name='constructor'),
+    
+    # API endpoints для фронтенда
+    path('api/designs/my/', views.PageDesignViewSet.as_view({'get': 'my_designs'}), name='my-designs'),
 ]

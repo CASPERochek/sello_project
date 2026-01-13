@@ -1,4 +1,3 @@
-// src/components/ConstructorPage.jsx
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Sidebar from "./Sidebar";
@@ -14,7 +13,6 @@ const ConstructorPage = () => {
   const [textColor, setTextColor] = useState("#000000");
   const [bgColor, setBgColor] = useState("#ffffff");
   
-  // Новые состояния для работы с БД
   const [savedDesigns, setSavedDesigns] = useState([]);
   const [currentDesignId, setCurrentDesignId] = useState(null);
   const [designName, setDesignName] = useState("Мой дизайн");
@@ -34,6 +32,9 @@ const ConstructorPage = () => {
       console.error("Ошибка загрузки дизайнов:", error);
     }
   };
+
+  // Функция сохранения в БД с JSON
+  // src/components/ConstructorPage.jsx - ОБНОВЛЕННАЯ ФУНКЦИЯ saveToDatabase
 
   // Функция сохранения в БД с JSON
   const saveToDatabase = async (name = designName, isNew = true) => {
@@ -82,24 +83,57 @@ const ConstructorPage = () => {
       };
       
       let result;
-      if (isNew || !currentDesignId) {
-        // Создаем новый дизайн с JSON
-        result = await apiService.saveDesignWithJson(designData, jsonData);
-        setCurrentDesignId(result.id);
-      } else {
-        // Обновляем существующий с JSON
-        result = await apiService.updateDesignWithJson(currentDesignId, designData, jsonData);
+      
+      // Проверяем авторизацию
+      if (!apiService.isAuthenticated()) {
+        alert("❌ Для сохранения в БД требуется авторизация. Войдите в систему.");
+        setIsLoading(false);
+        navigate('/login');
+        return null;
       }
       
-      setDesignName(name);
-      alert("✅ Дизайн успешно сохранен в базе данных!");
-      await loadSavedDesigns();
-      setShowSaveModal(false);
+      if (isNew || !currentDesignId) {
+        // Создаем новый дизайн с JSON
+        try {
+          result = await apiService.saveDesignWithJson(designData, jsonData);
+        } catch (jsonError) {
+          console.log('Не удалось сохранить с JSON, пробуем без него:', jsonError);
+          // Пробуем сохранить без JSON
+          result = await apiService.createDesign(designData);
+        }
+        if (result && result.id) {
+          setCurrentDesignId(result.id);
+        }
+      } else {
+        // Обновляем существующий с JSON
+        try {
+          result = await apiService.updateDesignWithJson(currentDesignId, designData, jsonData);
+        } catch (jsonError) {
+          console.log('Не удалось обновить с JSON, пробуем без него:', jsonError);
+          // Пробуем обновить без JSON
+          result = await apiService.updateDesign(currentDesignId, designData);
+        }
+      }
+      
+      if (result) {
+        setDesignName(name || result.name);
+        alert("✅ Дизайн успешно сохранен в базе данных!");
+        await loadSavedDesigns();
+        setShowSaveModal(false);
+      }
       
       return result;
     } catch (error) {
       console.error("Ошибка сохранения:", error);
-      alert(`❌ Ошибка сохранения: ${error.message}`);
+      
+      // Проверяем если ошибка авторизации
+      if (error.message.includes('401') || error.message.includes('авторизация')) {
+        alert("❌ Для сохранения в БД требуется авторизация. Войдите в систему.");
+        navigate('/login');
+      } else {
+        alert(`❌ Ошибка сохранения: ${error.message}`);
+      }
+      
       return null;
     } finally {
       setIsLoading(false);
@@ -110,7 +144,7 @@ const ConstructorPage = () => {
   const loadFromDatabase = async (id) => {
     try {
       setIsLoading(true);
-      const design = await apiService.loadDesign(id);
+      const design = await apiService.getDesign(id);
       
       setBlocks(design.blocks || []);
       setTextColor(design.text_color || "#000000");
@@ -311,6 +345,11 @@ const ConstructorPage = () => {
                 JSON файл будет сохранен как часть проекта в базе данных
               </small>
             </div>
+            {!apiService.isAuthenticated() && (
+              <div className="alert alert-warning mt-2">
+                <small>⚠️ Вы не авторизованы. Для сохранения в БД требуется войти в систему.</small>
+              </div>
+            )}
             <div className="d-flex gap-2">
               <button
                 className="btn btn-secondary"
@@ -322,7 +361,7 @@ const ConstructorPage = () => {
               <button
                 className="btn btn-primary"
                 onClick={() => saveToDatabase()}
-                disabled={isLoading || !designName.trim()}
+                disabled={isLoading || !designName.trim() || !apiService.isAuthenticated()}
               >
                 {isLoading ? "Сохранение..." : "Сохранить в БД"}
               </button>
@@ -414,3 +453,5 @@ const ConstructorPage = () => {
 };
 
 export default ConstructorPage;
+
+
