@@ -1,0 +1,82 @@
+{
+  "id": 67,
+  "name": "13",
+  "version": "1.0",
+  "design": {
+    "blocks": [
+      {
+        "id": 1768383490050,
+        "type": "threeImages",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 1768383490825,
+        "type": "imageRightText",
+        "items": [
+          null
+        ]
+      },
+      {
+        "id": 1768383491590,
+        "type": "bigLeftTwoSmall",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "colors": {
+      "text": "#000000",
+      "background": "#ffffff"
+    }
+  },
+  "metadata": {
+    "updated_at": "2026-01-14T09:42:17.448483+00:00",
+    "json_content": {
+      "blocks": [
+        {
+          "id": 1768383490050,
+          "type": "threeImages",
+          "items": [
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "id": 1768383490825,
+          "type": "imageRightText",
+          "items": [
+            null
+          ]
+        },
+        {
+          "id": 1768383491590,
+          "type": "bigLeftTwoSmall",
+          "items": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "bgColor": "#ffffff",
+      "savedAt": "2026-01-14T09:42:17.381Z",
+      "version": "1.0",
+      "textColor": "#000000",
+      "designName": "13"
+    },
+    "has_json_file": true,
+    "blocks_count": 3,
+    "is_public": false,
+    "created_at": "2026-01-14T09:38:04.212466+00:00",
+    "user": "mila",
+    "user_id": 9,
+    "json_file": "/media/constructor_json/design_67_13.json"
+  }
+}

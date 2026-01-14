@@ -200,11 +200,11 @@ class PageDesignHistory(models.Model):
         verbose_name="Цвет фона"
     )
     changed_by = models.ForeignKey(
-        User,
-        on_delete=models.SET_NULL,
-        null=True,
-        verbose_name="Кем изменено"
-    )
+    User,
+    on_delete=models.SET_NULL,
+    null=True,
+    verbose_name="Кем изменено"
+)
     change_comment = models.TextField(
         verbose_name="Комментарий изменения",
         blank=True
