@@ -120,7 +120,7 @@ const Home = () => {
                       СОЗДАТЕЛЬ
                     </Link>
                     <Link
-                      to="/brands"
+                      to="/user"
                       className="btn fw-semibold d-inline-flex align-items-center justify-content-center"
                       style={{ 
                         width: '250px', 

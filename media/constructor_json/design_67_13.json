@@ -28,6 +28,24 @@
           null,
           null
         ]
+      },
+      {
+        "id": 1768395069707,
+        "type": "heading",
+        "items": null,
+        "fontSize": "medium",
+        "alignment": "center",
+        "fontStyle": "bold-italic",
+        "fontFamily": "Courier New"
+      },
+      {
+        "id": 1768395107374,
+        "type": "textBlock",
+        "items": null,
+        "fontSize": "medium",
+        "alignment": "left",
+        "fontStyle": "normal",
+        "fontFamily": "Arial"
       }
     ],
     "colors": {
@@ -36,7 +54,7 @@
     }
   },
   "metadata": {
-    "updated_at": "2026-01-14T09:42:17.448483+00:00",
+    "updated_at": "2026-01-14T12:52:02.065058+00:00",
     "json_content": {
       "blocks": [
         {
@@ -63,16 +81,34 @@
             null,
             null
           ]
+        },
+        {
+          "id": 1768395069707,
+          "type": "heading",
+          "items": null,
+          "fontSize": "medium",
+          "alignment": "center",
+          "fontStyle": "bold-italic",
+          "fontFamily": "Courier New"
+        },
+        {
+          "id": 1768395107374,
+          "type": "textBlock",
+          "items": null,
+          "fontSize": "medium",
+          "alignment": "left",
+          "fontStyle": "normal",
+          "fontFamily": "Arial"
         }
       ],
       "bgColor": "#ffffff",
-      "savedAt": "2026-01-14T09:42:17.381Z",
+      "savedAt": "2026-01-14T12:52:01.680Z",
       "version": "1.0",
       "textColor": "#000000",
       "designName": "13"
     },
     "has_json_file": true,
-    "blocks_count": 3,
+    "blocks_count": 5,
     "is_public": false,
     "created_at": "2026-01-14T09:38:04.212466+00:00",
     "user": "mila",

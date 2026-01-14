@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'sello_tovar',
     'construct',
     'tree',
+    'lk',
 ]
 
 MIDDLEWARE = [

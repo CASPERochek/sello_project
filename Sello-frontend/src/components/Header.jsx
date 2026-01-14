@@ -31,12 +31,7 @@ const Header = () => {
                   Привет, {user?.first_name || user?.username}
                 </span>
                 
-                <Link
-                  to="/profile"
-                  className="text-dark text-decoration-none me-3"
-                >
-                  Личный кабинет
-                </Link>
+                
                 
                 <button
                   onClick={handleLogout}

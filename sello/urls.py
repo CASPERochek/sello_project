@@ -11,6 +11,7 @@ urlpatterns = [
     path('product/', include('sello_tovar.urls')),
     path('constructor/', include('construct.urls')),
     path('api/tree/', include('tree.urls')),
+    path('api/lk', include('lk.urls')),
 ]
 
 # Отдаём media и static в режиме разработки
