@@ -18972,3 +18972,1055 @@ INFO 2026-01-14 17:52:02,140 basehttp 32336 18000 "POST /constructor/api/designs
 INFO 2026-01-14 17:52:03,848 basehttp 32336 18000 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
 INFO 2026-01-14 17:52:07,703 basehttp 32336 18000 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
 INFO 2026-01-14 17:52:07,776 basehttp 32336 22844 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:13:46,839 autoreload 17876 35124 Watching for file changes with StatReloader
+INFO 2026-01-14 18:14:03,912 basehttp 17876 31884 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:14:03,918 basehttp 17876 28596 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:14:04,021 basehttp 17876 28596 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:14:04,117 basehttp 17876 31884 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:14:07,549 basehttp 17876 31884 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:14:07,714 basehttp 17876 28596 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:14:09,653 basehttp 17876 28596 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:14:09,659 basehttp 17876 31884 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:14:09,738 basehttp 17876 8060 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:14:09,743 basehttp 17876 10660 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:19:39,986 basehttp 17876 1396 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:19:39,997 basehttp 17876 24912 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:19:40,068 basehttp 17876 1396 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:19:40,087 basehttp 17876 24912 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:19:47,854 autoreload 17028 25480 Watching for file changes with StatReloader
+INFO 2026-01-14 18:21:02,791 basehttp 17028 33996 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:21:02,874 basehttp 17028 33996 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:21:03,200 basehttp 17028 17696 "GET /media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_200131.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:03,208 basehttp 17028 20008 "GET /media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_205741.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:03,215 basehttp 17028 8416 "GET /media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_201722.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:03,222 basehttp 17028 21372 "GET /media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_205749_TVyqKUQ.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:03,303 basehttp 17028 2160 "GET /media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-12-24_180609.png HTTP/1.1" 200 242562
+INFO 2026-01-14 18:21:04,080 basehttp 17028 33996 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:04,167 basehttp 17028 22076 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:04,260 basehttp 17028 2160 "GET /media/brands/logos/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-22_080624.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:05,845 basehttp 17028 22076 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:21:05,934 basehttp 17028 33996 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:21:08,680 basehttp 17028 33996 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:08,769 basehttp 17028 22076 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:10,280 basehttp 17028 22076 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 18:21:10,371 basehttp 17028 33996 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 18:21:10,487 basehttp 17028 33996 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:10,492 basehttp 17028 2160 "GET /media/products/images/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-15_121120.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:21:10,579 basehttp 17028 33996 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 18:21:10,582 basehttp 17028 22076 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:21:10,823 basehttp 17028 22076 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 18:21:21,680 basehttp 17028 22076 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:21:21,764 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 6383
+INFO 2026-01-14 18:21:31,347 basehttp 17028 33996 "POST /constructor/api/designs/ HTTP/1.1" 201 522
+INFO 2026-01-14 18:21:33,219 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 7257
+INFO 2026-01-14 18:21:35,308 basehttp 17028 33996 "OPTIONS /constructor/api/designs/71/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:21:35,308 basehttp 17028 22076 "OPTIONS /constructor/api/designs/71/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:21:35,388 basehttp 17028 22076 "GET /constructor/api/designs/71/ HTTP/1.1" 200 873
+INFO 2026-01-14 18:21:35,394 basehttp 17028 7048 "GET /constructor/api/designs/ HTTP/1.1" 200 7257
+INFO 2026-01-14 18:21:35,461 basehttp 17028 33996 "GET /constructor/api/designs/71/ HTTP/1.1" 200 873
+INFO 2026-01-14 18:21:35,481 basehttp 17028 22076 "GET /constructor/api/designs/ HTTP/1.1" 200 7257
+INFO 2026-01-14 18:21:44,778 basehttp 17028 22076 "PUT /constructor/api/designs/71/ HTTP/1.1" 200 1024
+INFO 2026-01-14 18:21:44,782 basehttp 17028 22076 "OPTIONS /constructor/api/designs/71/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:21:44,857 basehttp 17028 22076 "POST /constructor/api/designs/71/generate_json_file/ HTTP/1.1" 200 152
+INFO 2026-01-14 18:21:46,409 basehttp 17028 22076 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:21:49,905 basehttp 17028 22076 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:21:49,988 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:22:03,411 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:22:03,591 basehttp 17028 22076 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:22:12,029 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:22:12,111 basehttp 17028 22076 "GET /constructor/api/designs/71/ HTTP/1.1" 200 1917
+INFO 2026-01-14 18:22:12,116 basehttp 17028 7048 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:22:12,179 basehttp 17028 33996 "GET /constructor/api/designs/71/ HTTP/1.1" 200 1917
+WARNING 2026-01-14 18:23:17,008 log 17028 2160 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:23:17,008 basehttp 17028 2160 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 18:23:17,191 log 17028 21372 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:23:17,191 basehttp 17028 21372 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 18:23:42,635 log 17028 21372 Not Found: /api/connections/
+WARNING 2026-01-14 18:23:42,635 basehttp 17028 21372 "POST /api/connections/ HTTP/1.1" 404 4380
+WARNING 2026-01-14 18:24:17,823 log 17028 21372 Not Found: /api/cart/
+WARNING 2026-01-14 18:24:17,824 basehttp 17028 21372 "GET /api/cart/ HTTP/1.1" 404 4358
+WARNING 2026-01-14 18:24:17,906 log 17028 2160 Not Found: /api/cart/
+WARNING 2026-01-14 18:24:17,906 basehttp 17028 2160 "GET /api/cart/ HTTP/1.1" 404 4358
+INFO 2026-01-14 18:26:21,470 basehttp 17028 33996 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 18:26:21,552 basehttp 17028 7048 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 18:26:21,661 basehttp 17028 7048 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:26:21,737 basehttp 17028 33996 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 18:26:21,742 basehttp 17028 7048 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 18:26:21,811 basehttp 17028 33996 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 18:26:40,948 basehttp 17028 33996 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:26:41,127 basehttp 17028 7048 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:29:00,530 autoreload 17028 25480 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 18:29:01,461 autoreload 13440 19692 Watching for file changes with StatReloader
+INFO 2026-01-14 18:29:03,147 autoreload 13440 19692 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 18:29:04,086 autoreload 6904 20804 Watching for file changes with StatReloader
+INFO 2026-01-14 18:29:29,618 autoreload 6904 20804 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 18:29:30,415 autoreload 14756 23028 Watching for file changes with StatReloader
+INFO 2026-01-14 18:29:39,101 autoreload 14756 23028 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 18:29:39,876 autoreload 22336 1396 Watching for file changes with StatReloader
+INFO 2026-01-14 18:29:55,239 autoreload 22336 1396 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 18:29:56,017 autoreload 11896 15124 Watching for file changes with StatReloader
+INFO 2026-01-14 18:29:58,415 autoreload 11896 15124 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 18:29:59,194 autoreload 10216 32964 Watching for file changes with StatReloader
+INFO 2026-01-14 18:30:02,640 autoreload 10216 32964 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 18:30:03,499 autoreload 28436 1300 Watching for file changes with StatReloader
+INFO 2026-01-14 18:33:48,640 basehttp 28436 27452 "GET /constructor/api/sello/products/ HTTP/1.1" 200 8123
+WARNING 2026-01-14 18:33:50,159 log 28436 27452 Not Found: /favicon.ico
+WARNING 2026-01-14 18:33:50,160 basehttp 28436 27452 "GET /favicon.ico HTTP/1.1" 404 3448
+INFO 2026-01-14 18:34:12,458 basehttp 28436 27452 "GET /constructor/api/sello/news/ HTTP/1.1" 200 10781
+INFO 2026-01-14 18:36:41,352 basehttp 28436 34324 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:36:41,352 basehttp 28436 12676 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:36:41,465 basehttp 28436 34324 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:36:41,465 basehttp 28436 12676 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:43,872 autoreload 30984 21032 Watching for file changes with StatReloader
+INFO 2026-01-14 18:37:49,676 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:49,747 basehttp 30984 34792 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:37:49,824 basehttp 30984 20644 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:49,830 basehttp 30984 34792 "GET /constructor/api/designs/67/ HTTP/1.1" 200 3064
+INFO 2026-01-14 18:37:49,925 basehttp 30984 20644 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:50,042 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:52,043 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:52,129 basehttp 30984 20644 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:54,606 basehttp 30984 20644 "GET /constructor/api/designs/71/ HTTP/1.1" 200 1917
+INFO 2026-01-14 18:37:54,680 basehttp 30984 27992 "GET /constructor/api/designs/71/ HTTP/1.1" 200 1917
+INFO 2026-01-14 18:37:54,724 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:54,800 basehttp 30984 27992 "GET /constructor/api/designs/ HTTP/1.1" 200 8301
+INFO 2026-01-14 18:37:57,714 basehttp 30984 27992 "OPTIONS /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 18:37:57,899 basehttp 30984 27992 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 941
+INFO 2026-01-14 18:38:18,493 basehttp 30984 27992 "OPTIONS /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 18:38:18,660 basehttp 30984 27992 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-14 18:38:32,444 basehttp 30984 27992 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 941
+INFO 2026-01-14 18:38:37,485 basehttp 30984 27992 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-14 18:38:47,744 basehttp 30984 27992 "PUT /constructor/api/designs/71/ HTTP/1.1" 200 2456
+INFO 2026-01-14 18:38:47,808 basehttp 30984 27992 "POST /constructor/api/designs/71/generate_json_file/ HTTP/1.1" 200 152
+INFO 2026-01-14 18:38:49,515 basehttp 30984 27992 "GET /constructor/api/designs/ HTTP/1.1" 200 11165
+INFO 2026-01-14 18:38:54,613 basehttp 30984 27992 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:38:54,689 basehttp 30984 34792 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:39:11,195 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 11165
+INFO 2026-01-14 18:39:11,393 basehttp 30984 27992 "GET /constructor/api/designs/ HTTP/1.1" 200 11165
+INFO 2026-01-14 18:39:14,386 basehttp 30984 27992 "GET /constructor/api/designs/71/ HTTP/1.1" 200 4781
+INFO 2026-01-14 18:39:14,400 basehttp 30984 34792 "GET /constructor/api/designs/ HTTP/1.1" 200 11165
+INFO 2026-01-14 18:39:14,467 basehttp 30984 20644 "GET /constructor/api/designs/71/ HTTP/1.1" 200 4781
+INFO 2026-01-14 18:39:14,531 basehttp 30984 27992 "GET /constructor/api/designs/ HTTP/1.1" 200 11165
+INFO 2026-01-14 18:39:43,900 basehttp 30984 19820 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+INFO 2026-01-14 18:39:43,980 basehttp 30984 19820 "GET /news/api/news/public/ HTTP/1.1" 200 2192
+WARNING 2026-01-14 18:40:22,556 log 30984 30232 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:40:22,557 basehttp 30984 30232 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 18:40:22,746 log 30984 30232 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:40:22,746 basehttp 30984 30232 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 18:41:43,186 log 30984 30232 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:41:43,187 basehttp 30984 30232 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 18:41:43,316 log 30984 30232 Not Found: /api/brands/available/
+WARNING 2026-01-14 18:41:43,316 basehttp 30984 30232 "GET /api/brands/available/ HTTP/1.1" 404 4394
+INFO 2026-01-14 18:42:15,257 basehttp 30984 19820 "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:42:15,951 basehttp 30984 19820 "POST /api/auth/login/ HTTP/1.1" 200 639
+INFO 2026-01-14 18:42:19,846 basehttp 30984 19820 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 18:42:20,030 basehttp 30984 19820 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 18:42:25,788 basehttp 30984 19820 "POST /constructor/api/designs/ HTTP/1.1" 201 521
+INFO 2026-01-14 18:42:27,759 basehttp 30984 19820 "GET /constructor/api/designs/ HTTP/1.1" 200 923
+INFO 2026-01-14 18:42:29,968 basehttp 30984 19820 "OPTIONS /constructor/api/designs/72/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:42:29,968 basehttp 30984 17048 "OPTIONS /constructor/api/designs/72/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:42:30,048 basehttp 30984 19820 "GET /constructor/api/designs/72/ HTTP/1.1" 200 871
+INFO 2026-01-14 18:42:30,048 basehttp 30984 17048 "GET /constructor/api/designs/ HTTP/1.1" 200 923
+INFO 2026-01-14 18:42:30,143 basehttp 30984 17048 "GET /constructor/api/designs/ HTTP/1.1" 200 923
+INFO 2026-01-14 18:42:30,248 basehttp 30984 19820 "GET /constructor/api/designs/72/ HTTP/1.1" 200 871
+INFO 2026-01-14 18:42:42,347 basehttp 30984 19820 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 941
+INFO 2026-01-14 18:42:42,540 basehttp 30984 30232 "GET /media/products/images/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-15_121120.png HTTP/1.1" 304 0
+INFO 2026-01-14 18:42:45,636 basehttp 30984 19820 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-14 18:42:51,485 basehttp 30984 19820 "PUT /constructor/api/designs/72/ HTTP/1.1" 200 1845
+INFO 2026-01-14 18:42:51,488 basehttp 30984 19820 "OPTIONS /constructor/api/designs/72/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-14 18:42:51,550 basehttp 30984 19820 "POST /constructor/api/designs/72/generate_json_file/ HTTP/1.1" 200 152
+INFO 2026-01-14 18:42:53,227 basehttp 30984 19820 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 18:42:56,300 basehttp 30984 19820 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 18:42:56,368 basehttp 30984 17048 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 19:12:21,841 basehttp 30984 20052 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 19:12:21,917 basehttp 30984 20052 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 19:12:22,217 basehttp 30984 27796 "GET /media/brands/logos/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-22_080624.png HTTP/1.1" 304 0
+INFO 2026-01-14 19:12:29,764 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 19:12:29,841 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 19:12:32,144 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 19:12:32,214 basehttp 30984 32236 "GET /constructor/api/designs/ HTTP/1.1" 200 3611
+INFO 2026-01-14 19:12:32,242 basehttp 30984 5084 "GET /constructor/api/designs/72/ HTTP/1.1" 200 3559
+INFO 2026-01-14 19:12:32,315 basehttp 30984 20052 "GET /constructor/api/designs/72/ HTTP/1.1" 200 3559
+INFO 2026-01-14 19:12:32,316 basehttp 30984 27796 "GET /media/products/images/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-15_121120.png HTTP/1.1" 304 0
+INFO 2026-01-14 19:12:37,090 basehttp 30984 20052 "PUT /constructor/api/designs/72/ HTTP/1.1" 200 1979
+INFO 2026-01-14 19:12:37,151 basehttp 30984 20052 "POST /constructor/api/designs/72/generate_json_file/ HTTP/1.1" 200 152
+INFO 2026-01-14 19:12:38,858 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:12:42,240 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:12:42,311 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+WARNING 2026-01-14 19:15:54,691 log 30984 27796 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:15:54,691 basehttp 30984 27796 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:15:54,786 log 30984 27796 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:15:54,787 basehttp 30984 27796 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:16:01,754 log 30984 27796 Not Found: /api/cart/
+WARNING 2026-01-14 19:16:01,755 basehttp 30984 27796 "GET /api/cart/ HTTP/1.1" 404 4358
+WARNING 2026-01-14 19:16:01,931 log 30984 5616 Not Found: /api/cart/
+WARNING 2026-01-14 19:16:01,932 basehttp 30984 5616 "GET /api/cart/ HTTP/1.1" 404 4358
+INFO 2026-01-14 19:16:06,481 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:16:06,662 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:16:08,886 basehttp 30984 20052 "GET /constructor/api/designs/72/ HTTP/1.1" 200 3827
+INFO 2026-01-14 19:16:08,893 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:16:08,961 basehttp 30984 32236 "GET /constructor/api/designs/72/ HTTP/1.1" 200 3827
+INFO 2026-01-14 19:16:09,016 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 3879
+INFO 2026-01-14 19:16:13,401 basehttp 30984 20052 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 941
+INFO 2026-01-14 19:16:21,714 basehttp 30984 20052 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-14 19:16:28,385 basehttp 30984 20052 "PUT /constructor/api/designs/72/ HTTP/1.1" 200 2865
+INFO 2026-01-14 19:16:28,460 basehttp 30984 20052 "POST /constructor/api/designs/72/generate_json_file/ HTTP/1.1" 200 152
+INFO 2026-01-14 19:16:29,790 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:34,179 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:34,252 basehttp 30984 32236 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:36,336 basehttp 30984 32236 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 19:16:36,342 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:36,409 basehttp 30984 5084 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 19:16:36,523 basehttp 30984 19168 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:46,943 basehttp 30984 19168 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 19:16:46,947 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:16:47,022 basehttp 30984 20052 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 19:16:47,035 basehttp 30984 32236 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:17:10,504 basehttp 30984 20052 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:17:10,613 basehttp 30984 32236 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 19:17:10,687 basehttp 30984 5084 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 19:17:10,694 basehttp 30984 20052 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+WARNING 2026-01-14 19:18:09,745 log 30984 5616 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:09,746 basehttp 30984 5616 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:18:09,831 log 30984 27796 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:09,833 basehttp 30984 27796 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:18:12,919 log 30984 27796 Not Found: /api/cart/
+WARNING 2026-01-14 19:18:12,920 basehttp 30984 27796 "GET /api/cart/ HTTP/1.1" 404 4358
+WARNING 2026-01-14 19:18:13,100 log 30984 5616 Not Found: /api/cart/
+WARNING 2026-01-14 19:18:13,101 basehttp 30984 5616 "GET /api/cart/ HTTP/1.1" 404 4358
+WARNING 2026-01-14 19:18:41,699 log 30984 5616 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:41,700 basehttp 30984 5616 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:18:41,771 log 30984 27796 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:41,771 basehttp 30984 27796 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:18:59,444 log 30984 27796 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:59,445 basehttp 30984 27796 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:18:59,515 log 30984 5616 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:18:59,516 basehttp 30984 5616 "GET /api/brands/available/ HTTP/1.1" 404 4394
+INFO 2026-01-14 19:29:04,824 autoreload 30984 21032 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 19:29:05,789 autoreload 35448 15444 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:02,176 autoreload 35448 15444 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 19:31:02,872 autoreload 30580 8120 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:07,317 autoreload 30580 8120 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 19:31:08,016 autoreload 35528 26324 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:21,876 autoreload 35528 26324 D:\Kirill\lessons\Project Ural Federal University\sello\construct\views.py changed, reloading.
+INFO 2026-01-14 19:31:22,599 autoreload 31420 15072 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:36,931 autoreload 31420 15072 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 19:31:37,661 autoreload 25776 3000 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:38,950 autoreload 25776 3000 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 19:31:39,667 autoreload 28712 20232 Watching for file changes with StatReloader
+INFO 2026-01-14 19:31:47,235 autoreload 28712 20232 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 19:31:47,906 autoreload 28048 26676 Watching for file changes with StatReloader
+INFO 2026-01-14 19:42:27,136 autoreload 20828 30604 Watching for file changes with StatReloader
+INFO 2026-01-14 19:42:43,000 basehttp 20828 13952 "OPTIONS /constructor/api/designs/67/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:42:43,005 basehttp 20828 15580 "OPTIONS /constructor/api/designs/67/ HTTP/1.1" 200 0
+WARNING 2026-01-14 19:42:43,068 log 20828 30116 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:42:43,069 basehttp 20828 30116 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:42:43,098 log 20828 13952 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 19:42:43,100 basehttp 20828 13952 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+INFO 2026-01-14 19:42:43,113 basehttp 20828 4848 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 19:42:43,256 log 20828 30116 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:42:43,256 basehttp 20828 30116 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:42:43,270 log 20828 15580 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 19:42:43,270 basehttp 20828 15580 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+INFO 2026-01-14 19:42:43,292 basehttp 20828 13952 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 19:42:44,211 log 20828 30116 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:42:44,212 basehttp 20828 30116 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 19:42:44,281 log 20828 29856 Not Found: /api/brands/available/
+WARNING 2026-01-14 19:42:44,282 basehttp 20828 29856 "GET /api/brands/available/ HTTP/1.1" 404 4394
+INFO 2026-01-14 19:45:49,557 basehttp 20828 13952 "OPTIONS /constructor/api/sello/all-products/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:45:49,557 basehttp 20828 15580 "OPTIONS /constructor/api/sello/brands/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:45:49,558 basehttp 20828 4848 "OPTIONS /api/cart/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:45:49,559 basehttp 20828 13952 "OPTIONS /constructor/api/sello/all-products/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:45:49,559 basehttp 20828 15580 "OPTIONS /constructor/api/sello/brands/ HTTP/1.1" 200 0
+INFO 2026-01-14 19:45:49,565 basehttp 20828 4848 "OPTIONS /api/cart/ HTTP/1.1" 200 0
+ERROR 2026-01-14 19:45:49,628 log 20828 29856 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 19:45:49,628 basehttp 20828 29856 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+WARNING 2026-01-14 19:45:49,711 log 20828 29856 Not Found: /api/cart/
+WARNING 2026-01-14 19:45:49,711 basehttp 20828 29856 "GET /api/cart/ HTTP/1.1" 404 4358
+ERROR 2026-01-14 19:45:49,742 log 20828 30116 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 19:45:49,743 basehttp 20828 30116 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+ERROR 2026-01-14 19:45:49,789 log 20828 29856 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 19:45:49,789 basehttp 20828 29856 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+ERROR 2026-01-14 19:45:49,853 log 20828 29856 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 19:45:49,854 basehttp 20828 29856 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+WARNING 2026-01-14 19:45:49,925 log 20828 30116 Not Found: /api/cart/
+WARNING 2026-01-14 19:45:49,926 basehttp 20828 30116 "GET /api/cart/ HTTP/1.1" 404 4358
+INFO 2026-01-14 19:45:56,475 basehttp 20828 4848 "OPTIONS /api/cart/add_item/ HTTP/1.1" 200 0
+WARNING 2026-01-14 19:45:56,536 log 20828 30116 Not Found: /api/cart/add_item/
+WARNING 2026-01-14 19:45:56,537 basehttp 20828 30116 "POST /api/cart/add_item/ HTTP/1.1" 404 4386
+INFO 2026-01-14 19:46:02,654 basehttp 20828 4848 "OPTIONS /api/cart/checkout/ HTTP/1.1" 200 0
+WARNING 2026-01-14 19:46:02,718 log 20828 30116 Not Found: /api/cart/checkout/
+WARNING 2026-01-14 19:46:02,719 basehttp 20828 30116 "POST /api/cart/checkout/ HTTP/1.1" 404 4386
+INFO 2026-01-14 19:49:48,691 autoreload 20828 30604 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:49:49,585 autoreload 6512 25364 Watching for file changes with StatReloader
+INFO 2026-01-14 19:49:55,995 autoreload 6512 25364 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:49:56,839 autoreload 3080 6828 Watching for file changes with StatReloader
+INFO 2026-01-14 19:50:00,515 autoreload 3080 6828 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:50:01,284 autoreload 32600 32544 Watching for file changes with StatReloader
+INFO 2026-01-14 19:50:09,733 autoreload 32600 32544 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:50:10,567 autoreload 35204 27396 Watching for file changes with StatReloader
+INFO 2026-01-14 19:50:59,015 autoreload 35204 27396 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:50:59,799 autoreload 29580 4240 Watching for file changes with StatReloader
+INFO 2026-01-14 19:51:09,268 autoreload 29580 4240 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:51:09,992 autoreload 23872 11124 Watching for file changes with StatReloader
+INFO 2026-01-14 19:51:17,813 autoreload 23872 11124 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:51:18,663 autoreload 34264 11016 Watching for file changes with StatReloader
+INFO 2026-01-14 19:51:20,171 autoreload 34264 11016 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:51:20,987 autoreload 9636 1904 Watching for file changes with StatReloader
+INFO 2026-01-14 19:54:36,041 autoreload 9636 1904 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 19:54:36,834 autoreload 5868 23784 Watching for file changes with StatReloader
+INFO 2026-01-14 20:00:19,918 autoreload 5868 23784 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-14 20:00:20,715 autoreload 27268 14264 Watching for file changes with StatReloader
+INFO 2026-01-14 20:00:32,905 autoreload 27268 14264 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-14 20:00:33,686 autoreload 15352 13468 Watching for file changes with StatReloader
+INFO 2026-01-14 20:00:35,040 autoreload 15352 13468 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-14 20:00:35,758 autoreload 18708 25804 Watching for file changes with StatReloader
+INFO 2026-01-14 20:07:45,915 autoreload 18708 25804 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 20:07:46,822 autoreload 5792 5680 Watching for file changes with StatReloader
+INFO 2026-01-14 20:08:03,309 autoreload 5792 5680 D:\Kirill\lessons\Project Ural Federal University\sello\lk\serializers.py changed, reloading.
+INFO 2026-01-14 20:08:04,066 autoreload 16888 35356 Watching for file changes with StatReloader
+INFO 2026-01-14 20:08:10,936 autoreload 16888 35356 D:\Kirill\lessons\Project Ural Federal University\sello\lk\serializers.py changed, reloading.
+INFO 2026-01-14 20:08:11,871 autoreload 13208 27236 Watching for file changes with StatReloader
+INFO 2026-01-14 20:09:24,834 autoreload 13208 27236 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-14 20:09:25,838 autoreload 7336 29884 Watching for file changes with StatReloader
+INFO 2026-01-14 20:09:34,831 autoreload 7336 29884 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-14 20:09:35,693 autoreload 13456 16232 Watching for file changes with StatReloader
+INFO 2026-01-14 20:09:58,491 autoreload 13456 16232 D:\Kirill\lessons\Project Ural Federal University\sello\lk\admin.py changed, reloading.
+INFO 2026-01-14 20:09:59,584 autoreload 30932 26592 Watching for file changes with StatReloader
+INFO 2026-01-14 20:13:08,080 autoreload 22216 4468 Watching for file changes with StatReloader
+WARNING 2026-01-14 20:13:13,359 log 22216 6556 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 20:13:13,359 basehttp 22216 6556 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+ERROR 2026-01-14 20:13:13,392 log 22216 35000 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 20:13:13,393 log 22216 24080 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 20:13:13,395 basehttp 22216 35000 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+ERROR 2026-01-14 20:13:13,395 basehttp 22216 24080 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+WARNING 2026-01-14 20:13:13,438 log 22216 6556 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 20:13:13,439 basehttp 22216 6556 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+ERROR 2026-01-14 20:13:13,486 log 22216 24080 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 20:13:13,487 basehttp 22216 24080 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+INFO 2026-01-14 20:13:13,488 basehttp 22216 24584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 20:13:13,502 log 22216 16780 Not Found: /api/cart/
+WARNING 2026-01-14 20:13:13,503 basehttp 22216 16780 "GET /api/cart/ HTTP/1.1" 404 4358
+INFO 2026-01-14 20:13:13,556 basehttp 22216 6556 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+ERROR 2026-01-14 20:13:13,570 log 22216 35000 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 20:13:13,571 basehttp 22216 35000 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+WARNING 2026-01-14 20:13:13,683 log 22216 24080 Not Found: /api/cart/
+WARNING 2026-01-14 20:13:13,684 basehttp 22216 24080 "GET /api/cart/ HTTP/1.1" 404 4358
+WARNING 2026-01-14 20:13:14,997 log 22216 24080 Not Found: /api/projects/available/
+WARNING 2026-01-14 20:13:14,997 basehttp 22216 24080 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 20:13:15,067 log 22216 35000 Not Found: /api/projects/available/
+WARNING 2026-01-14 20:13:15,068 basehttp 22216 35000 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 20:13:22,037 log 22216 35000 Not Found: /api/brands/available/
+WARNING 2026-01-14 20:13:22,037 basehttp 22216 35000 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 20:13:25,803 log 22216 35000 Not Found: /api/projects/available/
+WARNING 2026-01-14 20:13:25,803 basehttp 22216 35000 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 20:13:45,288 log 22216 35000 Not Found: /api/brands/available/
+WARNING 2026-01-14 20:13:45,289 basehttp 22216 35000 "GET /api/brands/available/ HTTP/1.1" 404 4394
+INFO 2026-01-14 23:16:20,672 autoreload 9380 32836 Watching for file changes with StatReloader
+INFO 2026-01-14 23:17:07,345 basehttp 9380 31584 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:17:07,530 basehttp 9380 31584 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:17:07,743 basehttp 9380 9412 "GET /media/brands/logos/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-22_080624.png HTTP/1.1" 304 0
+INFO 2026-01-14 23:17:08,147 basehttp 9380 31584 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 23:17:08,360 basehttp 9380 34532 "GET /product/api/products/ HTTP/1.1" 200 2055
+INFO 2026-01-14 23:17:08,366 basehttp 9380 31584 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:17:08,366 basehttp 9380 9412 "GET /media/products/images/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-15_121120.png HTTP/1.1" 304 0
+INFO 2026-01-14 23:17:08,596 basehttp 9380 31584 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:17:08,619 basehttp 9380 34532 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 23:17:08,688 basehttp 9380 31584 "GET /product/api/categories/ HTTP/1.1" 200 7774
+INFO 2026-01-14 23:17:13,064 basehttp 9380 34532 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:17:13,064 basehttp 9380 31584 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:17:13,272 basehttp 9380 34532 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:17:13,457 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:17:40,690 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:17:40,778 basehttp 9380 34532 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 23:17:42,382 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:17:42,382 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:17:42,566 log 9380 34820 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:17:42,566 basehttp 9380 34820 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-14 23:18:08,052 basehttp 9380 34532 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:08,131 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:26,731 basehttp 9380 31584 "OPTIONS /constructor/api/designs/72/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:18:26,732 basehttp 9380 34532 "OPTIONS /constructor/api/designs/72/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:18:26,822 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:26,862 basehttp 9380 34532 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:26,946 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:26,985 basehttp 9380 34532 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:34,320 basehttp 9380 34532 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:18:34,403 basehttp 9380 31584 "GET /product/api/brands/ HTTP/1.1" 200 2247
+INFO 2026-01-14 23:18:37,692 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:37,781 basehttp 9380 34532 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:44,171 basehttp 9380 34532 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:44,172 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:44,275 basehttp 9380 15956 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:44,289 basehttp 9380 23224 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:50,838 basehttp 9380 23224 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:50,922 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:52,773 basehttp 9380 15956 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:52,856 basehttp 9380 31584 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:18:52,887 basehttp 9380 23224 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:52,961 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:56,988 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:18:57,065 basehttp 9380 23224 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:05,746 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:05,838 basehttp 9380 23224 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:19:05,842 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:06,032 basehttp 9380 15956 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:19:10,352 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:10,530 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:13,202 basehttp 9380 31584 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:19:13,223 basehttp 9380 15956 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:13,296 basehttp 9380 23224 "GET /constructor/api/designs/72/ HTTP/1.1" 200 5599
+INFO 2026-01-14 23:19:13,314 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:19:17,318 basehttp 9380 31584 "OPTIONS /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 23:19:17,381 basehttp 9380 31584 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 1043
+INFO 2026-01-14 23:19:20,974 basehttp 9380 31584 "OPTIONS /constructor/api/sello/products/?search=&category=%D0%BA%D0%B0%D1%82+1&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 23:19:21,037 basehttp 9380 31584 "GET /constructor/api/sello/products/?search=&category=%D0%BA%D0%B0%D1%82+1&limit=50 HTTP/1.1" 200 695
+INFO 2026-01-14 23:19:26,237 basehttp 9380 31584 "OPTIONS /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 23:19:26,304 basehttp 9380 31584 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-14 23:19:27,905 basehttp 9380 31584 "OPTIONS /constructor/api/sello/news/?search=&category=promotions&limit=50 HTTP/1.1" 200 0
+INFO 2026-01-14 23:19:27,966 basehttp 9380 31584 "GET /constructor/api/sello/news/?search=&category=promotions&limit=50 HTTP/1.1" 200 631
+WARNING 2026-01-14 23:19:32,991 log 9380 34820 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:19:32,992 basehttp 9380 34820 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:19:33,110 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:19:33,111 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:19:38,016 log 9380 9412 Not Found: /api/brands/available/
+WARNING 2026-01-14 23:19:38,016 basehttp 9380 9412 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 23:19:39,991 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:19:39,992 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:19:41,970 log 9380 9412 Not Found: /api/brands/available/
+WARNING 2026-01-14 23:19:41,971 basehttp 9380 9412 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 23:19:47,309 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:19:47,311 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:20:28,622 log 9380 9412 Not Found: /api/brands/available/
+WARNING 2026-01-14 23:20:28,623 basehttp 9380 9412 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 23:20:33,621 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:20:33,622 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-14 23:20:37,208 basehttp 9380 31584 "OPTIONS /constructor/api/sello/all-products/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:20:37,210 basehttp 9380 23224 "OPTIONS /constructor/api/sello/brands/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:20:37,213 basehttp 9380 31584 "OPTIONS /api/cart/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:20:37,213 basehttp 9380 15956 "OPTIONS /constructor/api/sello/all-products/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:20:37,213 basehttp 9380 34532 "OPTIONS /constructor/api/sello/brands/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:20:37,217 basehttp 9380 23224 "OPTIONS /api/cart/ HTTP/1.1" 200 0
+ERROR 2026-01-14 23:20:37,302 log 9380 34820 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 23:20:37,303 basehttp 9380 34820 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+WARNING 2026-01-14 23:20:37,377 log 9380 34820 Not Found: /api/cart/
+WARNING 2026-01-14 23:20:37,377 basehttp 9380 34820 "GET /api/cart/ HTTP/1.1" 404 4358
+ERROR 2026-01-14 23:20:37,419 log 9380 9412 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 23:20:37,420 basehttp 9380 9412 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+ERROR 2026-01-14 23:20:37,457 log 9380 34820 Internal Server Error: /constructor/api/sello/brands/
+ERROR 2026-01-14 23:20:37,458 basehttp 9380 34820 "GET /constructor/api/sello/brands/ HTTP/1.1" 500 191
+ERROR 2026-01-14 23:20:37,540 log 9380 34820 Internal Server Error: /constructor/api/sello/all-products/
+ERROR 2026-01-14 23:20:37,540 basehttp 9380 34820 "GET /constructor/api/sello/all-products/ HTTP/1.1" 500 193
+WARNING 2026-01-14 23:20:37,600 log 9380 9412 Not Found: /api/cart/
+WARNING 2026-01-14 23:20:37,601 basehttp 9380 9412 "GET /api/cart/ HTTP/1.1" 404 4358
+INFO 2026-01-14 23:21:00,370 basehttp 9380 23224 "OPTIONS /api/cart/add_item/ HTTP/1.1" 200 0
+WARNING 2026-01-14 23:21:00,544 log 9380 9412 Not Found: /api/cart/add_item/
+WARNING 2026-01-14 23:21:00,545 basehttp 9380 9412 "POST /api/cart/add_item/ HTTP/1.1" 404 4386
+INFO 2026-01-14 23:21:04,965 basehttp 9380 23224 "OPTIONS /api/cart/update_item/ HTTP/1.1" 200 0
+WARNING 2026-01-14 23:21:05,023 log 9380 9412 Not Found: /api/cart/update_item/
+WARNING 2026-01-14 23:21:05,024 basehttp 9380 9412 "PUT /api/cart/update_item/ HTTP/1.1" 404 4394
+WARNING 2026-01-14 23:21:05,635 log 9380 9412 Not Found: /api/cart/update_item/
+WARNING 2026-01-14 23:21:05,635 basehttp 9380 9412 "PUT /api/cart/update_item/ HTTP/1.1" 404 4394
+INFO 2026-01-14 23:21:11,642 basehttp 9380 23224 "OPTIONS /api/cart/checkout/ HTTP/1.1" 200 0
+WARNING 2026-01-14 23:21:11,698 log 9380 9412 Not Found: /api/cart/checkout/
+WARNING 2026-01-14 23:21:11,698 basehttp 9380 9412 "POST /api/cart/checkout/ HTTP/1.1" 404 4386
+WARNING 2026-01-14 23:21:15,335 log 9380 9412 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:21:15,336 basehttp 9380 9412 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-14 23:21:15,531 log 9380 34820 Not Found: /api/projects/available/
+WARNING 2026-01-14 23:21:15,532 basehttp 9380 34820 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-14 23:22:11,968 basehttp 9380 23224 "OPTIONS /constructor/api/designs/67/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:22:11,971 basehttp 9380 15956 "OPTIONS /constructor/api/designs/67/ HTTP/1.1" 200 0
+WARNING 2026-01-14 23:22:12,067 log 9380 23224 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 23:22:12,069 basehttp 9380 23224 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+INFO 2026-01-14 23:22:12,070 basehttp 9380 34532 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 23:22:12,148 log 9380 15956 Not Found: /constructor/api/designs/67/
+WARNING 2026-01-14 23:22:12,149 basehttp 9380 15956 "GET /constructor/api/designs/67/ HTTP/1.1" 404 50
+INFO 2026-01-14 23:22:12,165 basehttp 9380 31584 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:28:02,901 basehttp 9380 28992 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:28:02,968 basehttp 9380 28992 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+WARNING 2026-01-14 23:28:05,038 log 9380 26828 Not Found: /constructor/api/sello/all-designs/
+WARNING 2026-01-14 23:28:05,039 basehttp 9380 26828 "GET /constructor/api/sello/all-designs/ HTTP/1.1" 404 17006
+WARNING 2026-01-14 23:28:05,121 log 9380 26828 Not Found: /constructor/api/sello/all-designs/
+WARNING 2026-01-14 23:28:05,122 basehttp 9380 26828 "GET /constructor/api/sello/all-designs/ HTTP/1.1" 404 17006
+INFO 2026-01-14 23:28:05,305 basehttp 9380 26828 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 23:28:05,374 basehttp 9380 20160 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 23:28:11,556 basehttp 9380 28992 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:28:11,632 basehttp 9380 2988 "GET /constructor/api/designs/ HTTP/1.1" 200 5651
+INFO 2026-01-14 23:28:16,417 basehttp 9380 2988 "POST /constructor/api/designs/ HTTP/1.1" 201 1325
+INFO 2026-01-14 23:28:16,421 basehttp 9380 2988 "OPTIONS /constructor/api/designs/73/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:28:16,511 basehttp 9380 2988 "POST /constructor/api/designs/73/generate_json_file/ HTTP/1.1" 200 224
+INFO 2026-01-14 23:28:17,711 basehttp 9380 2988 "GET /constructor/api/designs/ HTTP/1.1" 200 8041
+WARNING 2026-01-14 23:28:19,731 log 9380 20160 Not Found: /constructor/api/sello/all-designs/
+WARNING 2026-01-14 23:28:19,732 basehttp 9380 20160 "GET /constructor/api/sello/all-designs/ HTTP/1.1" 404 17006
+WARNING 2026-01-14 23:28:19,913 log 9380 26828 Not Found: /constructor/api/sello/all-designs/
+WARNING 2026-01-14 23:28:19,914 basehttp 9380 26828 "GET /constructor/api/sello/all-designs/ HTTP/1.1" 404 17006
+INFO 2026-01-14 23:28:19,944 basehttp 9380 20160 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 23:28:20,024 basehttp 9380 26828 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+WARNING 2026-01-14 23:28:24,670 log 9380 26828 Not Found: /constructor/api/sello/all-designs/
+WARNING 2026-01-14 23:28:24,671 basehttp 9380 26828 "GET /constructor/api/sello/all-designs/ HTTP/1.1" 404 17006
+INFO 2026-01-14 23:28:24,845 basehttp 9380 26828 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 23:28:27,101 basehttp 9380 2988 "GET /constructor/api/designs/ HTTP/1.1" 200 8041
+INFO 2026-01-14 23:28:27,281 basehttp 9380 28992 "GET /constructor/api/designs/ HTTP/1.1" 200 8041
+INFO 2026-01-14 23:29:51,036 basehttp 9380 28992 "POST /constructor/api/designs/ HTTP/1.1" 201 623
+INFO 2026-01-14 23:29:52,377 basehttp 9380 28992 "GET /constructor/api/designs/ HTTP/1.1" 200 9054
+WARNING 2026-01-14 23:38:38,756 log 9380 5732 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:38:38,756 basehttp 9380 5732 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-14 23:38:38,845 log 9380 5732 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:38:38,846 basehttp 9380 5732 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-14 23:38:38,862 log 9380 19172 Not Found: /constructor/api/designs/all/
+WARNING 2026-01-14 23:38:38,863 basehttp 9380 19172 "GET /constructor/api/designs/all/ HTTP/1.1" 404 50
+WARNING 2026-01-14 23:38:38,935 log 9380 5732 Not Found: /constructor/api/designs/all/
+WARNING 2026-01-14 23:38:38,936 basehttp 9380 5732 "GET /constructor/api/designs/all/ HTTP/1.1" 404 50
+INFO 2026-01-14 23:38:38,943 basehttp 9380 19172 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+INFO 2026-01-14 23:38:39,008 basehttp 9380 5732 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+WARNING 2026-01-14 23:38:39,256 log 9380 19252 Not Found: /api/projects/from-constructor/
+WARNING 2026-01-14 23:38:39,258 basehttp 9380 19252 "GET /api/projects/from-constructor/ HTTP/1.1" 404 4421
+WARNING 2026-01-14 23:38:39,263 log 9380 19252 Not Found: /api/projects/from-constructor/
+WARNING 2026-01-14 23:38:39,263 basehttp 9380 19252 "GET /api/projects/from-constructor/ HTTP/1.1" 404 4421
+WARNING 2026-01-14 23:38:41,698 log 9380 5732 Not Found: /constructor/api/designs/all/
+WARNING 2026-01-14 23:38:41,699 basehttp 9380 5732 "GET /constructor/api/designs/all/ HTTP/1.1" 404 50
+INFO 2026-01-14 23:38:41,866 basehttp 9380 5732 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+WARNING 2026-01-14 23:38:41,873 log 9380 19252 Not Found: /api/projects/from-constructor/
+WARNING 2026-01-14 23:38:41,874 basehttp 9380 19252 "GET /api/projects/from-constructor/ HTTP/1.1" 404 4421
+INFO 2026-01-14 23:38:43,959 basehttp 9380 19252 "GET /constructor/api/designs/ HTTP/1.1" 200 9054
+INFO 2026-01-14 23:38:44,038 basehttp 9380 4908 "GET /constructor/api/designs/ HTTP/1.1" 200 9054
+INFO 2026-01-14 23:38:48,212 basehttp 9380 4908 "POST /constructor/api/designs/ HTTP/1.1" 201 1183
+INFO 2026-01-14 23:38:48,216 basehttp 9380 4908 "OPTIONS /constructor/api/designs/75/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-14 23:38:48,278 basehttp 9380 4908 "POST /constructor/api/designs/75/generate_json_file/ HTTP/1.1" 200 224
+INFO 2026-01-14 23:38:49,868 basehttp 9380 4908 "GET /constructor/api/designs/ HTTP/1.1" 200 11160
+WARNING 2026-01-14 23:38:52,148 log 9380 19172 Not Found: /constructor/api/designs/all/
+WARNING 2026-01-14 23:38:52,149 basehttp 9380 19172 "GET /constructor/api/designs/all/ HTTP/1.1" 404 50
+WARNING 2026-01-14 23:38:52,270 log 9380 5732 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:38:52,271 basehttp 9380 5732 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-14 23:38:52,330 log 9380 7396 Not Found: /constructor/api/designs/all/
+WARNING 2026-01-14 23:38:52,331 basehttp 9380 7396 "GET /constructor/api/designs/all/ HTTP/1.1" 404 50
+WARNING 2026-01-14 23:38:52,344 log 9380 19172 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:38:52,345 basehttp 9380 19172 "GET /api/auth/user/ HTTP/1.1" 404 4373
+INFO 2026-01-14 23:38:52,461 basehttp 9380 5732 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+WARNING 2026-01-14 23:38:52,472 log 9380 4908 Not Found: /api/projects/from-constructor/
+WARNING 2026-01-14 23:38:52,473 basehttp 9380 4908 "GET /api/projects/from-constructor/ HTTP/1.1" 404 4421
+INFO 2026-01-14 23:38:52,530 basehttp 9380 19172 "GET /constructor/api/designs/ HTTP/1.1" 200 52
+WARNING 2026-01-14 23:38:52,538 log 9380 4908 Not Found: /api/projects/from-constructor/
+WARNING 2026-01-14 23:38:52,539 basehttp 9380 4908 "GET /api/projects/from-constructor/ HTTP/1.1" 404 4421
+INFO 2026-01-14 23:45:52,481 autoreload 9380 32836 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 23:45:53,704 autoreload 22544 12608 Watching for file changes with StatReloader
+INFO 2026-01-14 23:45:57,389 autoreload 22544 12608 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 23:45:58,289 autoreload 20516 14272 Watching for file changes with StatReloader
+INFO 2026-01-14 23:46:01,002 autoreload 20516 14272 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 23:46:02,028 autoreload 28516 34904 Watching for file changes with StatReloader
+INFO 2026-01-14 23:46:40,756 autoreload 28516 34904 D:\Kirill\lessons\Project Ural Federal University\sello\lk\serializers.py changed, reloading.
+INFO 2026-01-14 23:46:41,515 autoreload 30500 17552 Watching for file changes with StatReloader
+INFO 2026-01-14 23:51:43,346 autoreload 24984 11444 Watching for file changes with StatReloader
+INFO 2026-01-14 23:54:01,189 autoreload 8832 17860 Watching for file changes with StatReloader
+INFO 2026-01-14 23:55:00,515 autoreload 8832 17860 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 23:55:01,339 autoreload 28468 17704 Watching for file changes with StatReloader
+INFO 2026-01-14 23:56:31,441 autoreload 28468 17704 D:\Kirill\lessons\Project Ural Federal University\sello\construct\urls.py changed, reloading.
+INFO 2026-01-14 23:56:32,306 autoreload 28200 28552 Watching for file changes with StatReloader
+INFO 2026-01-14 23:56:41,207 autoreload 28200 28552 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-14 23:56:42,098 autoreload 27520 12812 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:24,124 autoreload 27520 12812 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 23:58:25,037 autoreload 21564 1636 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:27,454 autoreload 21564 1636 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-14 23:58:28,269 autoreload 25068 7056 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:37,978 autoreload 25068 7056 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-14 23:58:38,910 autoreload 27796 30272 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:40,510 autoreload 27796 30272 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-14 23:58:41,402 autoreload 28516 8380 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:46,964 autoreload 28516 8380 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-14 23:58:47,739 autoreload 12400 25988 Watching for file changes with StatReloader
+INFO 2026-01-14 23:58:57,477 autoreload 12400 25988 D:\Kirill\lessons\Project Ural Federal University\sello\lk\serializers.py changed, reloading.
+INFO 2026-01-14 23:58:58,234 autoreload 396 3896 Watching for file changes with StatReloader
+INFO 2026-01-14 23:59:05,018 autoreload 396 3896 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-14 23:59:05,949 autoreload 4832 33576 Watching for file changes with StatReloader
+INFO 2026-01-14 23:59:12,770 autoreload 31792 2300 Watching for file changes with StatReloader
+INFO 2026-01-14 23:59:27,893 basehttp 31792 25428 "GET /constructor/api/designs/ HTTP/1.1" 200 11160
+INFO 2026-01-14 23:59:28,086 basehttp 31792 25428 "GET /constructor/api/designs/ HTTP/1.1" 200 11160
+WARNING 2026-01-14 23:59:30,664 log 31792 31608 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:59:30,665 log 31792 9624 Not Found: /api/designs/available/
+WARNING 2026-01-14 23:59:30,665 basehttp 31792 31608 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-14 23:59:30,666 basehttp 31792 9624 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-14 23:59:30,855 log 31792 9624 Not Found: /api/designs/available/
+WARNING 2026-01-14 23:59:30,856 basehttp 31792 9624 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-14 23:59:30,857 log 31792 31608 Not Found: /api/auth/user/
+WARNING 2026-01-14 23:59:30,857 basehttp 31792 31608 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-14 23:59:38,911 log 31792 31608 Not Found: /api/designs/available/
+WARNING 2026-01-14 23:59:38,912 basehttp 31792 31608 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-14 23:59:47,406 log 31792 31608 Not Found: /api/designs/available/
+WARNING 2026-01-14 23:59:47,407 basehttp 31792 31608 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-14 23:59:51,251 basehttp 31792 25428 "GET /constructor/api/designs/ HTTP/1.1" 200 11160
+INFO 2026-01-14 23:59:51,334 basehttp 31792 23576 "GET /constructor/api/designs/ HTTP/1.1" 200 11160
+INFO 2026-01-14 23:59:57,164 basehttp 31792 23576 "POST /constructor/api/designs/ HTTP/1.1" 201 549
+INFO 2026-01-14 23:59:58,525 basehttp 31792 23576 "GET /constructor/api/designs/ HTTP/1.1" 200 12073
+INFO 2026-01-15 00:00:00,428 basehttp 31792 23576 "OPTIONS /constructor/api/designs/76/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:00:00,434 basehttp 31792 23576 "OPTIONS /constructor/api/designs/76/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:00:00,519 basehttp 31792 25428 "GET /constructor/api/designs/ HTTP/1.1" 200 12073
+INFO 2026-01-15 00:00:00,520 basehttp 31792 15956 "GET /constructor/api/designs/76/ HTTP/1.1" 200 912
+INFO 2026-01-15 00:00:00,603 basehttp 31792 25428 "GET /constructor/api/designs/76/ HTTP/1.1" 200 912
+INFO 2026-01-15 00:00:00,710 basehttp 31792 23576 "GET /constructor/api/designs/ HTTP/1.1" 200 12073
+INFO 2026-01-15 00:00:06,334 basehttp 31792 23576 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-15 00:00:09,173 basehttp 31792 23576 "PUT /constructor/api/designs/76/ HTTP/1.1" 200 1400
+INFO 2026-01-15 00:00:09,176 basehttp 31792 23576 "OPTIONS /constructor/api/designs/76/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:00:09,244 basehttp 31792 23576 "POST /constructor/api/designs/76/generate_json_file/ HTTP/1.1" 200 162
+INFO 2026-01-15 00:00:10,392 basehttp 31792 23576 "GET /constructor/api/designs/ HTTP/1.1" 200 13815
+INFO 2026-01-15 00:00:12,603 basehttp 31792 23576 "GET /constructor/api/designs/ HTTP/1.1" 200 13815
+INFO 2026-01-15 00:00:12,686 basehttp 31792 25428 "GET /constructor/api/designs/ HTTP/1.1" 200 13815
+WARNING 2026-01-15 00:00:23,752 log 31792 31608 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:00:23,753 basehttp 31792 31608 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:00:23,762 log 31792 9624 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:00:23,763 basehttp 31792 9624 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:00:23,833 log 31792 12256 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:00:23,834 basehttp 31792 12256 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:00:23,845 log 31792 10660 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:00:23,846 basehttp 31792 10660 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:02:25,204 log 31792 10660 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:02:25,205 basehttp 31792 10660 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:02:25,221 log 31792 12256 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:02:25,222 basehttp 31792 12256 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:02:25,274 log 31792 9624 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:02:25,275 basehttp 31792 9624 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:02:25,299 log 31792 10660 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:02:25,300 basehttp 31792 10660 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:02:33,630 log 31792 12360 Not Found: /
+WARNING 2026-01-15 00:02:33,630 basehttp 31792 12360 "GET / HTTP/1.1" 404 3397
+WARNING 2026-01-15 00:02:33,896 log 31792 12360 Not Found: /favicon.ico
+WARNING 2026-01-15 00:02:33,896 basehttp 31792 12360 "GET /favicon.ico HTTP/1.1" 404 3448
+INFO 2026-01-15 00:02:36,466 basehttp 31792 12360 "GET /api/test/ HTTP/1.1" 200 5203
+INFO 2026-01-15 00:02:39,635 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-01-15 00:02:39,776 basehttp 31792 12360 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4374
+INFO 2026-01-15 00:02:39,808 basehttp 31792 12360 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,812 basehttp 31792 12360 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,820 basehttp 31792 30860 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,821 basehttp 31792 12360 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,822 basehttp 31792 18864 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,822 basehttp 31792 28088 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:39,830 basehttp 31792 28088 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:51,461 basehttp 31792 28088 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-01-15 00:02:51,571 basehttp 31792 28088 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:02:51,610 basehttp 31792 28088 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:51,616 basehttp 31792 18864 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:51,616 basehttp 31792 28088 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,490 basehttp 31792 28088 "GET /admin/lk/publishedproject/ HTTP/1.1" 200 20333
+INFO 2026-01-15 00:02:55,531 basehttp 31792 28088 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,541 basehttp 31792 18864 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,543 basehttp 31792 30860 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,543 basehttp 31792 35632 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,543 basehttp 31792 12360 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,544 basehttp 31792 35408 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,545 basehttp 31792 18864 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,546 basehttp 31792 35632 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,546 basehttp 31792 12360 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,559 basehttp 31792 12360 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,573 basehttp 31792 12360 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,656 basehttp 31792 28088 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:02:55,681 basehttp 31792 28088 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:55,681 basehttp 31792 12360 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-01-15 00:02:57,910 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:02:59,154 basehttp 31792 12360 "GET /admin/lk/userbrandconnection/ HTTP/1.1" 200 19542
+INFO 2026-01-15 00:02:59,376 basehttp 31792 12360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:03:00,702 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:03:01,910 basehttp 31792 12360 "GET /admin/lk/product/ HTTP/1.1" 200 19011
+INFO 2026-01-15 00:03:02,023 basehttp 31792 12360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:03:03,468 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:03:04,324 basehttp 31792 12360 "GET /admin/lk/cartitem/ HTTP/1.1" 200 19415
+INFO 2026-01-15 00:03:04,437 basehttp 31792 12360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:03:05,438 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:03:06,600 basehttp 31792 12360 "GET /admin/lk/brand/ HTTP/1.1" 200 19854
+INFO 2026-01-15 00:03:06,817 basehttp 31792 12360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:03:07,810 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:03:08,657 basehttp 31792 12360 "GET /admin/lk/cart/ HTTP/1.1" 200 17775
+INFO 2026-01-15 00:03:08,760 basehttp 31792 12360 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:03:09,913 basehttp 31792 12360 "GET /admin/ HTTP/1.1" 200 22140
+WARNING 2026-01-15 00:09:15,544 log 31792 20376 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:09:15,545 basehttp 31792 20376 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:09:15,559 log 31792 1308 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:09:15,560 basehttp 31792 1308 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:09:15,641 log 31792 20376 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:09:15,642 basehttp 31792 20376 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:09:15,647 log 31792 1308 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:09:15,648 basehttp 31792 1308 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 00:09:18,358 basehttp 31792 28652 "GET /constructor/api/designs/ HTTP/1.1" 200 13815
+INFO 2026-01-15 00:09:18,539 basehttp 31792 28652 "GET /constructor/api/designs/ HTTP/1.1" 200 13815
+INFO 2026-01-15 00:09:37,170 basehttp 31792 28652 "POST /constructor/api/designs/ HTTP/1.1" 201 546
+INFO 2026-01-15 00:09:38,529 basehttp 31792 28652 "GET /constructor/api/designs/ HTTP/1.1" 200 14722
+INFO 2026-01-15 00:09:40,233 basehttp 31792 28652 "OPTIONS /constructor/api/designs/77/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:09:40,233 basehttp 31792 15160 "OPTIONS /constructor/api/designs/77/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:09:40,335 basehttp 31792 28652 "GET /constructor/api/designs/77/ HTTP/1.1" 200 906
+INFO 2026-01-15 00:09:40,422 basehttp 31792 15160 "GET /constructor/api/designs/77/ HTTP/1.1" 200 906
+INFO 2026-01-15 00:09:40,430 basehttp 31792 34220 "GET /constructor/api/designs/ HTTP/1.1" 200 14722
+INFO 2026-01-15 00:09:40,636 basehttp 31792 28652 "GET /constructor/api/designs/ HTTP/1.1" 200 14722
+INFO 2026-01-15 00:09:46,903 basehttp 31792 26100 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-15 00:09:49,461 basehttp 31792 26100 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 1043
+INFO 2026-01-15 00:09:49,841 basehttp 31792 20636 "GET /media/products/images/2026/01/14/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2025-12-15_121120.png HTTP/1.1" 304 0
+INFO 2026-01-15 00:09:53,722 basehttp 31792 26100 "GET /constructor/api/sello/products/?search=&category=&limit=50 HTTP/1.1" 200 1043
+INFO 2026-01-15 00:09:58,152 basehttp 31792 26100 "GET /constructor/api/sello/news/?search=&category=&limit=50 HTTP/1.1" 200 2129
+INFO 2026-01-15 00:10:03,406 basehttp 31792 26100 "PUT /constructor/api/designs/77/ HTTP/1.1" 200 2268
+INFO 2026-01-15 00:10:03,409 basehttp 31792 26100 "OPTIONS /constructor/api/designs/77/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:10:03,484 basehttp 31792 26100 "POST /constructor/api/designs/77/generate_json_file/ HTTP/1.1" 200 162
+INFO 2026-01-15 00:10:04,517 basehttp 31792 26100 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+INFO 2026-01-15 00:10:14,038 basehttp 31792 26100 "GET /constructor/api/designs/77/ HTTP/1.1" 200 4390
+INFO 2026-01-15 00:10:14,054 basehttp 31792 12608 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+INFO 2026-01-15 00:10:14,182 basehttp 31792 26100 "GET /constructor/api/designs/77/ HTTP/1.1" 200 4390
+INFO 2026-01-15 00:10:14,304 basehttp 31792 12608 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+WARNING 2026-01-15 00:11:27,934 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:11:27,935 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:11:28,005 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:11:28,005 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:11:28,072 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:11:28,072 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:11:28,138 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:11:28,138 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:12:46,180 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:12:46,181 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+INFO 2026-01-15 00:12:46,221 basehttp 31792 12608 "GET /constructor/api/designs/77/ HTTP/1.1" 200 4390
+INFO 2026-01-15 00:12:46,243 basehttp 31792 26100 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+WARNING 2026-01-15 00:12:46,290 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:12:46,291 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 00:12:46,324 basehttp 31792 12608 "GET /constructor/api/designs/77/ HTTP/1.1" 200 4390
+INFO 2026-01-15 00:12:46,357 basehttp 31792 26100 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+WARNING 2026-01-15 00:12:46,382 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:12:46,382 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:12:46,454 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:12:46,456 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:12:46,542 log 31792 20636 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:12:46,543 basehttp 31792 20636 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:12:46,547 log 31792 29240 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:12:46,549 basehttp 31792 29240 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:12:46,620 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:12:46,621 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:12:46,697 log 31792 29240 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:12:46,698 basehttp 31792 29240 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 00:12:54,746 basehttp 31792 26100 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+INFO 2026-01-15 00:12:54,937 basehttp 31792 12608 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+WARNING 2026-01-15 00:13:30,407 log 31792 29240 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:13:30,408 basehttp 31792 29240 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:13:30,411 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:13:30,420 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:13:30,493 log 31792 8472 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:13:30,494 basehttp 31792 8472 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:13:30,494 log 31792 10888 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:13:30,495 basehttp 31792 10888 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 00:13:43,237 basehttp 31792 12608 "OPTIONS /api/connections/ HTTP/1.1" 200 0
+WARNING 2026-01-15 00:13:43,298 log 31792 10888 Not Found: /api/connections/
+WARNING 2026-01-15 00:13:43,299 basehttp 31792 10888 "POST /api/connections/ HTTP/1.1" 404 4380
+WARNING 2026-01-15 00:14:03,267 log 31792 10888 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:14:03,267 basehttp 31792 10888 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:14:04,106 log 31792 10888 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:14:04,106 basehttp 31792 10888 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:14:16,799 log 31792 8472 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:14:16,799 basehttp 31792 8472 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:14:16,811 log 31792 10888 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:14:16,812 basehttp 31792 10888 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:14:16,876 log 31792 20636 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:14:16,876 basehttp 31792 20636 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:14:16,893 log 31792 8472 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:14:16,894 basehttp 31792 8472 "GET /api/auth/user/ HTTP/1.1" 404 4373
+INFO 2026-01-15 00:14:58,956 basehttp 31792 10148 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:15:04,573 basehttp 31792 10148 "GET /admin/lk/brand/ HTTP/1.1" 200 19854
+INFO 2026-01-15 00:15:04,802 basehttp 31792 10148 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:15:06,216 basehttp 31792 10148 "GET /admin/ HTTP/1.1" 200 22140
+INFO 2026-01-15 00:17:16,923 autoreload 31792 2300 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 00:17:17,883 autoreload 15900 12136 Watching for file changes with StatReloader
+INFO 2026-01-15 00:17:40,859 autoreload 15900 12136 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 00:17:41,752 autoreload 10216 25800 Watching for file changes with StatReloader
+INFO 2026-01-15 00:19:32,657 autoreload 7056 5036 Watching for file changes with StatReloader
+INFO 2026-01-15 00:21:45,049 autoreload 7056 5036 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 00:21:45,968 autoreload 26492 872 Watching for file changes with StatReloader
+INFO 2026-01-15 00:21:52,738 basehttp 26492 8272 "GET /admin/sello_tovar/category/ HTTP/1.1" 200 57559
+INFO 2026-01-15 00:21:52,872 basehttp 26492 8272 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:21:58,138 basehttp 26492 8272 "GET /admin/tree/category/ HTTP/1.1" 200 59331
+INFO 2026-01-15 00:21:58,258 basehttp 26492 8272 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:22:05,567 basehttp 26492 8272 "GET /admin/auth/group/ HTTP/1.1" 200 18125
+INFO 2026-01-15 00:22:05,682 basehttp 26492 8272 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:22:08,013 basehttp 26492 8272 "GET /admin/construct/pagedesign/ HTTP/1.1" 200 31004
+INFO 2026-01-15 00:22:08,136 basehttp 26492 8272 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+INFO 2026-01-15 00:22:08,153 basehttp 26492 35424 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2026-01-15 00:22:08,166 basehttp 26492 35424 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+ERROR 2026-01-15 00:22:14,954 log 26492 35424 Internal Server Error: /admin/construct/pagedesignhistory/
+Traceback (most recent call last):
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: character varying = bigint
+LINE 1: ...N ("construct_pagedesign_history"."changed_by_id" = "sello_m...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 368, in __len__
+    self._fetch_all()
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: character varying = bigint
+LINE 1: ...N ("construct_pagedesign_history"."changed_by_id" = "sello_m...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+ERROR 2026-01-15 00:22:14,960 basehttp 26492 35424 "GET /admin/construct/pagedesignhistory/ HTTP/1.1" 500 202832
+INFO 2026-01-15 00:22:23,742 basehttp 26492 35424 "GET /admin/construct/pagedesign/ HTTP/1.1" 200 31004
+INFO 2026-01-15 00:22:26,553 basehttp 26492 35424 "GET /admin/construct/contentitem/ HTTP/1.1" 200 20172
+INFO 2026-01-15 00:22:26,677 basehttp 26492 35424 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+ERROR 2026-01-15 00:22:29,668 log 26492 35424 Internal Server Error: /admin/construct/pagedesignhistory/
+Traceback (most recent call last):
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: ОШИБКА:  оператор не существует: character varying = bigint
+LINE 1: ...N ("construct_pagedesign_history"."changed_by_id" = "sello_m...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\contrib\admin\options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 368, in __len__
+    self._fetch_all()
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Kirill\lessons\Project Ural Federal University\sello_project_venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: ОШИБКА:  оператор не существует: character varying = bigint
+LINE 1: ...N ("construct_pagedesign_history"."changed_by_id" = "sello_m...
+                                                             ^
+HINT:  Оператор с данными именем и типами аргументов не найден. Возможно, вам следует добавить явные приведения типов.
+
+ERROR 2026-01-15 00:22:29,671 basehttp 26492 35424 "GET /admin/construct/pagedesignhistory/ HTTP/1.1" 500 202833
+INFO 2026-01-15 00:22:31,247 basehttp 26492 35424 "GET /admin/construct/contentitem/ HTTP/1.1" 200 20172
+WARNING 2026-01-15 00:22:39,169 log 26492 35424 Not Found: /
+WARNING 2026-01-15 00:22:39,169 basehttp 26492 35424 "GET / HTTP/1.1" 404 3397
+WARNING 2026-01-15 00:22:58,927 log 26492 31400 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:22:58,928 basehttp 26492 31400 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:22:58,940 log 26492 28060 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:22:58,941 basehttp 26492 28060 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:22:59,009 log 26492 31400 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:22:59,010 basehttp 26492 31400 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:22:59,141 log 26492 28060 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:22:59,142 basehttp 26492 28060 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:23:00,370 log 26492 28060 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:23:00,371 basehttp 26492 28060 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:23:00,387 log 26492 31400 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:23:00,387 basehttp 26492 31400 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:23:00,474 log 26492 28060 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:23:00,474 basehttp 26492 28060 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:23:00,557 log 26492 34684 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:23:00,557 basehttp 26492 34684 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:23:03,879 log 26492 34684 Not Found: /api/connections/
+WARNING 2026-01-15 00:23:03,880 basehttp 26492 34684 "POST /api/connections/ HTTP/1.1" 404 4380
+WARNING 2026-01-15 00:25:28,933 log 26492 34684 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:28,935 basehttp 26492 34684 "GET /api/available-projects/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:25:29,001 log 26492 28060 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:29,001 basehttp 26492 28060 "GET /api/available-projects/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:25:36,386 log 26492 28060 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:36,387 basehttp 26492 28060 "GET /api/available-projects/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:25:36,469 log 26492 34684 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:36,470 basehttp 26492 34684 "GET /api/available-projects/ HTTP/1.1" 404 4400
+INFO 2026-01-15 00:25:41,509 basehttp 26492 4444 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+INFO 2026-01-15 00:25:41,587 basehttp 26492 4444 "GET /constructor/api/designs/ HTTP/1.1" 200 18206
+INFO 2026-01-15 00:25:45,811 basehttp 26492 4444 "POST /constructor/api/designs/ HTTP/1.1" 201 1197
+INFO 2026-01-15 00:25:45,815 basehttp 26492 4444 "OPTIONS /constructor/api/designs/78/generate_json_file/ HTTP/1.1" 200 0
+INFO 2026-01-15 00:25:45,892 basehttp 26492 4444 "POST /constructor/api/designs/78/generate_json_file/ HTTP/1.1" 200 224
+INFO 2026-01-15 00:25:47,200 basehttp 26492 4444 "GET /constructor/api/designs/ HTTP/1.1" 200 20340
+WARNING 2026-01-15 00:25:49,858 log 26492 34684 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:49,858 basehttp 26492 34684 "GET /api/available-projects/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:25:49,943 log 26492 28060 Not Found: /api/available-projects/
+WARNING 2026-01-15 00:25:49,943 basehttp 26492 28060 "GET /api/available-projects/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:26:02,255 log 26492 28060 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:26:02,256 basehttp 26492 28060 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:26:02,260 log 26492 34684 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:26:02,262 basehttp 26492 34684 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 00:26:02,940 log 26492 34684 Not Found: /api/auth/user/
+WARNING 2026-01-15 00:26:02,942 basehttp 26492 34684 "GET /api/auth/user/ HTTP/1.1" 404 4373
+WARNING 2026-01-15 00:26:02,943 log 26492 28060 Not Found: /api/designs/available/
+WARNING 2026-01-15 00:26:02,944 basehttp 26492 28060 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 00:47:28,385 autoreload 26492 872 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 00:47:29,360 autoreload 32180 2760 Watching for file changes with StatReloader
+INFO 2026-01-15 00:47:46,686 autoreload 32180 2760 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 00:47:47,741 autoreload 26832 5516 Watching for file changes with StatReloader
+WARNING 2026-01-15 00:48:16,254 log 26832 34784 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:48:16,255 basehttp 26832 34784 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:48:16,338 log 26832 34784 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:48:16,338 basehttp 26832 34784 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:48:36,426 log 26832 34784 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:48:36,426 basehttp 26832 34784 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:48:36,504 log 26832 24056 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:48:36,505 basehttp 26832 24056 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:52:51,915 log 26832 24056 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:52:51,917 basehttp 26832 24056 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 00:52:52,107 log 26832 34784 Not Found: /api/projects/available/
+WARNING 2026-01-15 00:52:52,107 basehttp 26832 34784 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-15 00:58:27,181 autoreload 26832 5516 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 00:58:28,048 autoreload 12796 23772 Watching for file changes with StatReloader
+INFO 2026-01-15 00:59:32,488 autoreload 12796 23772 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 00:59:33,581 autoreload 29404 27488 Watching for file changes with StatReloader
+INFO 2026-01-15 00:59:46,102 autoreload 29404 27488 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 00:59:47,042 autoreload 25696 31888 Watching for file changes with StatReloader
+WARNING 2026-01-15 01:00:12,941 log 25696 30504 Not Found: /api/designs/available/
+WARNING 2026-01-15 01:00:12,943 basehttp 25696 30504 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 01:00:13,011 log 25696 30504 Not Found: /api/designs/available/
+WARNING 2026-01-15 01:00:13,011 basehttp 25696 30504 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 01:00:15,133 log 25696 30504 Not Found: /api/designs/available/
+WARNING 2026-01-15 01:00:15,133 basehttp 25696 30504 "GET /api/designs/available/ HTTP/1.1" 404 4397
+WARNING 2026-01-15 01:00:15,216 log 25696 4312 Not Found: /api/designs/available/
+WARNING 2026-01-15 01:00:15,217 basehttp 25696 4312 "GET /api/designs/available/ HTTP/1.1" 404 4397
+INFO 2026-01-15 01:04:34,462 autoreload 25696 31888 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 01:04:35,348 autoreload 22552 17880 Watching for file changes with StatReloader
+INFO 2026-01-15 01:04:36,961 autoreload 22552 17880 D:\Kirill\lessons\Project Ural Federal University\sello\lk\views.py changed, reloading.
+INFO 2026-01-15 01:04:37,911 autoreload 32564 5792 Watching for file changes with StatReloader
+INFO 2026-01-15 01:04:51,186 autoreload 32564 5792 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 01:04:52,004 autoreload 9540 20000 Watching for file changes with StatReloader
+INFO 2026-01-15 01:08:12,895 autoreload 15072 17560 Watching for file changes with StatReloader
+INFO 2026-01-15 01:09:18,027 autoreload 15072 17560 D:\Kirill\lessons\Project Ural Federal University\sello\lk\urls.py changed, reloading.
+INFO 2026-01-15 01:09:18,954 autoreload 28320 31456 Watching for file changes with StatReloader
+WARNING 2026-01-15 01:09:26,982 log 28320 20000 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:26,983 basehttp 28320 20000 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:09:27,064 log 28320 20000 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:27,065 basehttp 28320 20000 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-15 01:09:31,791 basehttp 28320 22132 "GET /constructor/api/designs/ HTTP/1.1" 200 20340
+INFO 2026-01-15 01:09:31,895 basehttp 28320 22132 "GET /constructor/api/designs/ HTTP/1.1" 200 20340
+WARNING 2026-01-15 01:09:34,283 log 28320 20000 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:34,283 basehttp 28320 20000 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:09:34,369 log 28320 29080 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:34,369 basehttp 28320 29080 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:09:35,935 log 28320 29080 Not Found: /api/my-projects/
+WARNING 2026-01-15 01:09:35,935 basehttp 28320 29080 "GET /api/my-projects/ HTTP/1.1" 404 4379
+WARNING 2026-01-15 01:09:37,066 log 28320 29080 Not Found: /api/brands/available/
+WARNING 2026-01-15 01:09:37,066 basehttp 28320 29080 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-15 01:09:37,865 log 28320 29080 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:37,867 basehttp 28320 29080 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:09:43,053 log 28320 29080 Not Found: /api/my-projects/
+WARNING 2026-01-15 01:09:43,054 basehttp 28320 29080 "GET /api/my-projects/ HTTP/1.1" 404 4379
+WARNING 2026-01-15 01:09:43,853 log 28320 27924 Not Found: /api/brands/available/
+WARNING 2026-01-15 01:09:43,853 basehttp 28320 27924 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-15 01:09:44,491 log 28320 27924 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:44,491 basehttp 28320 27924 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:09:45,259 log 28320 27924 Not Found: /api/my-projects/
+WARNING 2026-01-15 01:09:45,260 basehttp 28320 27924 "GET /api/my-projects/ HTTP/1.1" 404 4379
+WARNING 2026-01-15 01:09:45,906 log 28320 27924 Not Found: /api/brands/available/
+WARNING 2026-01-15 01:09:45,908 basehttp 28320 27924 "GET /api/brands/available/ HTTP/1.1" 404 4394
+WARNING 2026-01-15 01:09:46,721 log 28320 27924 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:09:46,722 basehttp 28320 27924 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:10:09,947 log 28320 27924 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:10:09,947 basehttp 28320 27924 "GET /api/projects/available/ HTTP/1.1" 404 4400
+WARNING 2026-01-15 01:10:10,132 log 28320 13964 Not Found: /api/projects/available/
+WARNING 2026-01-15 01:10:10,132 basehttp 28320 13964 "GET /api/projects/available/ HTTP/1.1" 404 4400
+INFO 2026-01-15 01:10:29,380 autoreload 28320 31456 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-15 01:10:30,486 autoreload 23932 23716 Watching for file changes with StatReloader
+INFO 2026-01-15 01:11:23,439 autoreload 4348 24064 Watching for file changes with StatReloader
+INFO 2026-01-15 01:13:14,588 autoreload 19872 29920 Watching for file changes with StatReloader
+INFO 2026-01-15 01:13:40,290 autoreload 19872 29920 D:\Kirill\lessons\Project Ural Federal University\sello\sello\urls.py changed, reloading.
+INFO 2026-01-15 01:13:41,282 autoreload 29192 20292 Watching for file changes with StatReloader
+INFO 2026-01-15 01:14:19,341 autoreload 29192 20292 D:\Kirill\lessons\Project Ural Federal University\sello\lk\models.py changed, reloading.
+INFO 2026-01-15 01:14:20,455 autoreload 31880 25272 Watching for file changes with StatReloader
+INFO 2026-01-15 01:14:40,295 autoreload 31880 25272 D:\Kirill\lessons\Project Ural Federal University\sello\lk\admin.py changed, reloading.
+INFO 2026-01-15 01:14:41,319 autoreload 8720 35312 Watching for file changes with StatReloader

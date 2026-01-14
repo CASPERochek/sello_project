@@ -1,0 +1,110 @@
+{
+  "id": 77,
+  "name": "qwerty",
+  "version": "1.0",
+  "design": {
+    "blocks": [
+      {
+        "id": 1768417782077,
+        "type": "fourImages",
+        "items": [
+          {
+            "type": "news",
+            "image": "http://localhost:8000/media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_200131.png",
+            "title": "проверка"
+          },
+          null,
+          {
+            "type": "product",
+            "image": "http://localhost:8000/media/products/images/2025/12/18/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_222103.png",
+            "price": "1.00",
+            "description": "мс"
+          },
+          null
+        ]
+      },
+      {
+        "id": 1768417782517,
+        "type": "singleImageLeft",
+        "items": [
+          null
+        ]
+      },
+      {
+        "id": 1768417783158,
+        "type": "bigLeftTwoSmall",
+        "items": [
+          {
+            "type": "news",
+            "image": "http://localhost:8000/media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-12-24_180609.png",
+            "title": "как русалке сесть на шпагат"
+          },
+          null,
+          null
+        ]
+      }
+    ],
+    "colors": {
+      "text": "#000000",
+      "background": "#ffffff"
+    }
+  },
+  "metadata": {
+    "updated_at": "2026-01-14T19:10:03.405118+00:00",
+    "json_content": {
+      "blocks": [
+        {
+          "id": 1768417782077,
+          "type": "fourImages",
+          "items": [
+            {
+              "type": "news",
+              "image": "http://localhost:8000/media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_200131.png",
+              "title": "проверка"
+            },
+            null,
+            {
+              "type": "product",
+              "image": "http://localhost:8000/media/products/images/2025/12/18/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_222103.png",
+              "price": "1.00",
+              "description": "мс"
+            },
+            null
+          ]
+        },
+        {
+          "id": 1768417782517,
+          "type": "singleImageLeft",
+          "items": [
+            null
+          ]
+        },
+        {
+          "id": 1768417783158,
+          "type": "bigLeftTwoSmall",
+          "items": [
+            {
+              "type": "news",
+              "image": "http://localhost:8000/media/news/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-12-24_180609.png",
+              "title": "как русалке сесть на шпагат"
+            },
+            null,
+            null
+          ]
+        }
+      ],
+      "bgColor": "#ffffff",
+      "savedAt": "2026-01-14T19:10:03.333Z",
+      "version": "1.0",
+      "textColor": "#000000",
+      "designName": "qwerty"
+    },
+    "has_json_file": true,
+    "blocks_count": 3,
+    "is_public": false,
+    "created_at": "2026-01-14T19:09:37.162290+00:00",
+    "user": "123",
+    "user_id": 6,
+    "json_file": "/media/constructor_json/design_77_qwerty.json"
+  }
+}
