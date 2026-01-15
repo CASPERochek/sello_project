@@ -162,7 +162,7 @@ const CreatorDashboard = () => {
         text_color: '#000000',
         bg_color: '#ffffff',
         version: '1.0',
-        is_public: false,
+        is_public: true,
         metadata: {
           category: newProjectCategory || 'Проект',
           created_from: 'dashboard'
@@ -339,37 +339,37 @@ const CreatorDashboard = () => {
 
       <div className="container mt-4">
         {/* Заголовок */}
-        <h1 className="text-center mb-4" style={{ color: '#886128', fontWeight: 'bold' }}>Sello</h1>
+        <h1 className="text-center mb-4" style={{ color: '#886128', fontWeight: 'bold' }}>Личный кабинет</h1>
         
         {/* Приветствие и выход */}
         <div className="d-flex justify-content-between align-items-center mb-4">
           <div>
             <span style={{ fontSize: '1.2rem', color: '#886128' }}>
-              Привет, {getUserName()}  
+              {/* Привет, {getUserName()}   */}
             </span>
-            <span className="badge bg-secondary ms-2">Личный кабинет</span>
+            <span className="badge bg-secondary ms-2"></span>
             {connectionStatus === 'connected' && (
-              <span className="badge bg-success ms-2">✓ Сервер доступен</span>
+              <span className="badge bg-success ms-2"></span>
             )}
             {connectionStatus === 'disconnected' && (
-              <span className="badge bg-warning ms-2">⚠ Сервер недоступен</span>
+              <span className="badge bg-warning ms-2"></span>
             )}
             {connectionStatus === 'error' && (
-              <span className="badge bg-danger ms-2">✗ Ошибка подключения</span>
+              <span className="badge bg-danger ms-2"></span>
             )}
           </div>
-          <button 
+          {/* <button 
             className="btn btn-outline-secondary"
             onClick={handleLogout}
           >
             Выйти
-          </button>
+          </button> */}
         </div>
 
         <hr className="my-4" />
 
         {/* Отладочная панель */}
-        <div className="alert alert-secondary mb-3">
+        {/* <div className="alert alert-secondary mb-3">
           <h5 className="mb-2">🔧 Отладочная информация</h5>
           <div className="row">
             <div className="col-md-6">
@@ -408,7 +408,7 @@ const CreatorDashboard = () => {
               Проверить подключение
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Строка "Мои проекты" + кнопка "Добавить проект" */}
         <div className="d-flex justify-content-between align-items-center mb-4">
@@ -516,9 +516,9 @@ const CreatorDashboard = () => {
             </div>
           ) : (
             <div>
-              <div className="alert alert-success mb-3">
+              {/* <div className="alert alert-success mb-3">
                 Найдено проектов: <strong>{projects.length}</strong>
-              </div>
+              </div> */}
               <table style={{ 
                 width: '100%',
                 backgroundColor: '#FFF',
@@ -626,7 +626,7 @@ const CreatorDashboard = () => {
                         <div>
                           <strong>{project.name}</strong>
                           <div className="d-flex justify-content-center mt-1">
-                            <div 
+                            {/* <div 
                               className="me-1" 
                               style={{ 
                                 backgroundColor: project.textColor,
@@ -636,8 +636,8 @@ const CreatorDashboard = () => {
                                 border: '1px solid #ccc'
                               }} 
                               title={`Цвет текста: ${project.textColor}`}
-                            />
-                            <div 
+                            /> */}
+                            {/* <div 
                               style={{ 
                                 backgroundColor: project.bgColor,
                                 width: '12px', 
@@ -646,9 +646,9 @@ const CreatorDashboard = () => {
                                 border: '1px solid #ccc'
                               }} 
                               title={`Цвет фона: ${project.bgColor}`}
-                            />
+                            /> */}
                             {project.isPublic && (
-                              <span className="badge bg-info ms-1" style={{ fontSize: '10px' }}>Публичный</span>
+                              <span className="badge bg-info ms-1" style={{ fontSize: '10px' }}></span>
                             )}
                           </div>
                         </div>

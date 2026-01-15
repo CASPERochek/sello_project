@@ -94,7 +94,7 @@ const Home = () => {
           <div className="row justify-content-center">
             <div className="col-12 text-center" style={{ paddingTop: isAuthenticated ? '40px' : '80px' }}>
               
-              <h1 className="home-title">
+              <h1 className="home-title mt-5">
                 СОЗДАЙТЕ СВОЙ ИДЕАЛЬНЫЙ<br />ИНТЕРНЕТ-МАГАЗИН ЛЕГКО И БЫСТРО
               </h1>
 
@@ -113,6 +113,7 @@ const Home = () => {
                         height: '45px',
                         fontSize: '18px',
                         backgroundColor: '#FFA000',
+                        borderRadius: "25px",
                         border: 'none',
                         color: 'white'
                       }}
@@ -126,6 +127,7 @@ const Home = () => {
                         width: '250px', 
                         height: '45px',
                         fontSize: '18px',
+                        borderRadius: "25px",
                         backgroundColor: '#FFCA28',
                         border: 'none',
                         color: 'white'

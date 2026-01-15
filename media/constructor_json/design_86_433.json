@@ -1,0 +1,78 @@
+{
+  "id": 86,
+  "name": "433",
+  "version": "1.0",
+  "design": {
+    "blocks": [
+      {
+        "id": 1768464146524,
+        "type": "singleImageLeft",
+        "items": [
+          null
+        ]
+      },
+      {
+        "id": 1768464147140,
+        "type": "threeImages",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 1768464147492,
+        "type": "imageRightText",
+        "items": [
+          null
+        ]
+      }
+    ],
+    "colors": {
+      "text": "#000000",
+      "background": "#ffffff"
+    }
+  },
+  "metadata": {
+    "updated_at": "2026-01-15T08:02:29.510658+00:00",
+    "json_content": {
+      "blocks": [
+        {
+          "id": 1768464146524,
+          "type": "singleImageLeft",
+          "items": [
+            null
+          ]
+        },
+        {
+          "id": 1768464147140,
+          "type": "threeImages",
+          "items": [
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "id": 1768464147492,
+          "type": "imageRightText",
+          "items": [
+            null
+          ]
+        }
+      ],
+      "bgColor": "#ffffff",
+      "savedAt": "2026-01-15T08:02:29.444Z",
+      "version": "1.0",
+      "textColor": "#000000",
+      "designName": "433"
+    },
+    "has_json_file": true,
+    "blocks_count": 3,
+    "is_public": true,
+    "created_at": "2026-01-15T08:02:24.144921+00:00",
+    "user": "ФермерЪ",
+    "user_id": 12,
+    "json_file": "/media/constructor_json/design_86_433.json"
+  }
+}
