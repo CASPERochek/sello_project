@@ -25446,3 +25446,307 @@ WARNING 2026-01-15 13:10:34,535 log 18132 34804 Not Found: /cart/
 WARNING 2026-01-15 13:10:34,535 basehttp 18132 34804 "GET /cart/ HTTP/1.1" 404 3428
 WARNING 2026-01-15 13:10:34,612 log 18132 34804 Not Found: /cart/
 WARNING 2026-01-15 13:10:34,613 basehttp 18132 34804 "GET /cart/ HTTP/1.1" 404 3428
+INFO 2026-01-15 13:13:02,959 autoreload 12012 14064 Watching for file changes with StatReloader
+INFO 2026-01-15 13:13:23,310 basehttp 12012 6508 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 13:13:23,391 basehttp 12012 6508 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+WARNING 2026-01-15 13:13:27,194 log 12012 32904 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:13:27,194 basehttp 12012 32904 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:13:27,212 basehttp 12012 12952 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:13:27,323 basehttp 12012 12952 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:13:27,381 log 12012 32904 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:13:27,381 basehttp 12012 32904 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:17:37,979 basehttp 12012 6508 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-15 13:17:37,983 basehttp 12012 6508 "OPTIONS /constructor/api/designs/ HTTP/1.1" 200 0
+INFO 2026-01-15 13:17:38,171 basehttp 12012 6508 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 13:17:38,245 basehttp 12012 6508 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 13:17:39,267 basehttp 12012 25088 "GET /admin/sello_tovar/brand/ HTTP/1.1" 200 22473
+INFO 2026-01-15 13:17:39,469 basehttp 12012 25088 "GET /admin/jsi18n/ HTTP/1.1" 200 16820
+WARNING 2026-01-15 13:17:39,636 log 12012 25088 Not Found: /favicon.ico
+WARNING 2026-01-15 13:17:39,636 basehttp 12012 25088 "GET /favicon.ico HTTP/1.1" 404 3446
+WARNING 2026-01-15 13:17:42,419 log 12012 32904 Not Found: /api/cart/
+WARNING 2026-01-15 13:17:42,419 basehttp 12012 32904 "GET /api/cart/ HTTP/1.1" 404 4789
+WARNING 2026-01-15 13:17:42,504 log 12012 32904 Not Found: /sello/api/cart/
+WARNING 2026-01-15 13:17:42,505 basehttp 12012 32904 "GET /sello/api/cart/ HTTP/1.1" 404 3458
+WARNING 2026-01-15 13:17:42,597 log 12012 12952 Not Found: /api/cart/
+INFO 2026-01-15 13:17:42,609 basehttp 12012 12952 - Broken pipe from ('127.0.0.1', 56638)
+WARNING 2026-01-15 13:17:49,466 log 12012 32904 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:17:49,466 basehttp 12012 32904 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:17:49,545 basehttp 12012 32904 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:17:49,625 log 12012 32904 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:17:49,626 basehttp 12012 32904 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:17:49,717 basehttp 12012 32904 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:21:37,017 basehttp 12012 32904 "GET /product/api HTTP/1.1" 301 0
+INFO 2026-01-15 13:21:37,314 basehttp 12012 22892 "GET /product/api/ HTTP/1.1" 200 5703
+WARNING 2026-01-15 13:21:40,094 log 12012 22892 Not Found: /favicon.ico
+WARNING 2026-01-15 13:21:40,094 basehttp 12012 22892 "GET /favicon.ico HTTP/1.1" 404 3446
+INFO 2026-01-15 13:21:43,711 basehttp 12012 22892 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:21:51,564 basehttp 12012 22892 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 13:26:38,843 log 12012 22892 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:26:38,843 basehttp 12012 22892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:26:38,910 basehttp 12012 22892 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:26:49,528 log 12012 22892 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:26:49,529 basehttp 12012 22892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:26:49,547 basehttp 12012 26280 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:26:49,601 log 12012 22892 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:26:49,602 basehttp 12012 22892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:26:49,630 basehttp 12012 26280 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:28:22,248 basehttp 12012 3552 "GET /constructor/api/designs/86/ HTTP/1.1" 200 1936
+WARNING 2026-01-15 13:28:23,632 log 12012 3552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:23,633 basehttp 12012 3552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:23,647 basehttp 12012 7148 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:28:23,774 basehttp 12012 7148 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:28:23,871 log 12012 3552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:23,871 basehttp 12012 3552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:24,691 basehttp 12012 3552 "GET /constructor/api/designs/85/ HTTP/1.1" 200 5073
+INFO 2026-01-15 13:28:24,792 basehttp 12012 3552 "GET /media/news/%D0%B0%D0%B3%D1%80%D0%B0%D1%80%D0%B8%D0%B8.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 13:28:24,793 basehttp 12012 31712 "GET /media/news/1_%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%8C_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 13:28:24,795 basehttp 12012 7148 "GET /media/products/images/2026/01/15/4.jpg HTTP/1.1" 304 0
+WARNING 2026-01-15 13:28:26,046 log 12012 7148 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:26,047 basehttp 12012 7148 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 13:28:26,124 log 12012 3552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:26,125 basehttp 12012 3552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:26,160 basehttp 12012 31712 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:28:26,238 basehttp 12012 7148 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:28:33,811 log 12012 7148 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:33,813 basehttp 12012 7148 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:33,822 basehttp 12012 31712 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:28:33,881 log 12012 3552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:33,881 basehttp 12012 3552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:33,894 basehttp 12012 7148 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:28:40,595 log 12012 7148 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:40,595 basehttp 12012 7148 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 13:28:40,610 log 12012 3552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:28:40,611 basehttp 12012 3552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:28:40,613 basehttp 12012 31712 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:28:40,617 basehttp 12012 32664 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:30,123 log 12012 2552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:30,124 basehttp 12012 2552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:30,236 basehttp 12012 29476 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:36:30,237 basehttp 12012 25588 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:30,301 log 12012 2552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:30,303 basehttp 12012 2552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:30,314 basehttp 12012 29476 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:36:30,317 basehttp 12012 25588 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:35,476 log 12012 25588 Not Found: /api/auth/user/
+INFO 2026-01-15 13:36:35,479 basehttp 12012 29476 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 13:36:35,479 basehttp 12012 25588 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:35,490 basehttp 12012 2552 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:35,555 log 12012 11892 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:35,556 basehttp 12012 11892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:35,579 basehttp 12012 29892 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:36:35,665 basehttp 12012 14616 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:36:37,533 basehttp 12012 29892 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:36:37,540 basehttp 12012 29476 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 13:36:37,545 log 12012 14616 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:37,549 basehttp 12012 14616 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:37,551 basehttp 12012 25588 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:37,552 log 12012 11892 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:37,553 basehttp 12012 11892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:37,625 basehttp 12012 2552 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:39,919 log 12012 2552 Not Found: /api/cart/
+WARNING 2026-01-15 13:36:39,920 basehttp 12012 2552 "GET /api/cart/ HTTP/1.1" 404 4789
+WARNING 2026-01-15 13:36:39,993 log 12012 2552 Not Found: /sello/api/cart/
+WARNING 2026-01-15 13:36:39,993 basehttp 12012 2552 "GET /sello/api/cart/ HTTP/1.1" 404 3458
+WARNING 2026-01-15 13:36:40,070 log 12012 2552 Not Found: /cart/
+WARNING 2026-01-15 13:36:40,071 basehttp 12012 2552 "GET /cart/ HTTP/1.1" 404 3428
+WARNING 2026-01-15 13:36:40,092 log 12012 11892 Not Found: /api/cart/
+WARNING 2026-01-15 13:36:40,092 basehttp 12012 11892 "GET /api/cart/ HTTP/1.1" 404 4789
+WARNING 2026-01-15 13:36:40,186 log 12012 11892 Not Found: /sello/api/cart/
+WARNING 2026-01-15 13:36:40,187 basehttp 12012 11892 "GET /sello/api/cart/ HTTP/1.1" 404 3458
+WARNING 2026-01-15 13:36:40,261 log 12012 11892 Not Found: /cart/
+WARNING 2026-01-15 13:36:40,261 basehttp 12012 11892 "GET /cart/ HTTP/1.1" 404 3428
+WARNING 2026-01-15 13:36:41,272 log 12012 11892 Not Found: /api/auth/user/
+INFO 2026-01-15 13:36:41,272 basehttp 12012 2552 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 13:36:41,276 basehttp 12012 11892 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:41,289 basehttp 12012 25588 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 13:36:41,359 log 12012 2552 Not Found: /api/auth/user/
+WARNING 2026-01-15 13:36:41,359 basehttp 12012 2552 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 13:36:41,360 basehttp 12012 14616 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 13:36:41,376 basehttp 12012 11892 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 13:41:30,237 basehttp 12012 11892 "GET /product/api/products/ HTTP/1.1" 200 16626
+WARNING 2026-01-15 13:41:30,427 log 12012 11892 Not Found: /favicon.ico
+WARNING 2026-01-15 13:41:30,428 basehttp 12012 11892 "GET /favicon.ico HTTP/1.1" 404 3446
+INFO 2026-01-15 13:41:36,214 basehttp 12012 11892 "GET /api/tree/categories/ HTTP/1.1" 200 29693
+INFO 2026-01-15 13:51:40,645 basehttp 12012 32868 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 13:51:40,736 basehttp 12012 32868 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 14:03:59,281 autoreload 12012 14064 D:\Kirill\lessons\Project Ural Federal University\sello\sello_tovar\models.py changed, reloading.
+INFO 2026-01-15 14:04:00,192 autoreload 22124 25888 Watching for file changes with StatReloader
+INFO 2026-01-15 14:04:01,742 autoreload 22124 25888 D:\Kirill\lessons\Project Ural Federal University\sello\sello_tovar\models.py changed, reloading.
+INFO 2026-01-15 14:04:02,596 autoreload 28724 2368 Watching for file changes with StatReloader
+INFO 2026-01-15 14:16:32,250 basehttp 28724 32404 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 14:16:32,321 basehttp 28724 32404 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+WARNING 2026-01-15 14:16:37,480 log 28724 5420 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:16:37,483 basehttp 28724 5420 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:16:37,493 basehttp 28724 33464 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:16:37,560 log 28724 5420 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:16:37,561 basehttp 28724 5420 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:16:37,581 basehttp 28724 33464 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:16:37,588 basehttp 28724 11840 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:16:37,760 basehttp 28724 33464 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:17:56,443 basehttp 28724 32404 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+INFO 2026-01-15 14:17:56,576 basehttp 28724 32404 "GET /constructor/api/designs/ HTTP/1.1" 200 24410
+WARNING 2026-01-15 14:18:28,514 log 28724 33464 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:18:28,515 basehttp 28724 33464 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:18:28,516 basehttp 28724 11840 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:18:28,535 basehttp 28724 5420 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:18:28,613 basehttp 28724 11840 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:18:28,613 log 28724 33464 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:18:28,614 basehttp 28724 33464 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:18:28,639 basehttp 28724 5420 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:24:55,318 log 28724 28500 Not Found: /api/auth/user/
+INFO 2026-01-15 14:24:55,320 basehttp 28724 28748 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:24:55,323 basehttp 28724 28500 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:24:55,328 log 28724 7604 Not Found: /api/auth/user/
+INFO 2026-01-15 14:24:55,329 basehttp 28724 30680 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:24:55,330 basehttp 28724 7604 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:24:55,332 basehttp 28724 18252 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:24:55,399 basehttp 28724 4524 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:25:05,940 log 28724 4524 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:25:05,942 log 28724 30680 Not Found: /api/auth/user/
+INFO 2026-01-15 14:25:05,942 basehttp 28724 7604 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:25:05,943 basehttp 28724 4524 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:25:05,943 basehttp 28724 30680 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:25:05,943 basehttp 28724 18252 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:25:05,945 basehttp 28724 28500 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:25:05,946 basehttp 28724 28748 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:25:41,882 basehttp 28724 28500 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:25:41,892 log 28724 18252 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:25:41,893 basehttp 28724 18252 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:25:41,894 basehttp 28724 4524 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:25:41,895 log 28724 28748 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:25:41,896 basehttp 28724 28748 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:25:41,998 basehttp 28724 30680 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:25:42,009 basehttp 28724 7604 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:29:19,163 log 28724 30744 Not Found: /api/auth/user/
+INFO 2026-01-15 14:29:19,168 basehttp 28724 30488 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:29:19,168 basehttp 28724 30744 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:29:19,169 basehttp 28724 29648 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:29:19,175 log 28724 2012 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:29:19,175 basehttp 28724 2012 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:29:19,188 basehttp 28724 29516 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:29:19,243 basehttp 28724 19728 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:33:06,758 log 28724 19728 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:33:06,759 log 28724 2012 Not Found: /api/auth/user/
+INFO 2026-01-15 14:33:06,761 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:33:06,762 basehttp 28724 19728 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:33:06,763 basehttp 28724 2012 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:33:06,764 basehttp 28724 30488 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:33:06,855 basehttp 28724 29648 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:33:06,857 basehttp 28724 29516 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:33:13,346 basehttp 28724 29648 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:33:13,347 log 28724 2012 Not Found: /api/auth/user/
+INFO 2026-01-15 14:33:13,349 basehttp 28724 30488 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:33:13,354 basehttp 28724 2012 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:33:13,356 basehttp 28724 19728 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:33:13,358 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:33:13,451 log 28724 29516 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:33:13,451 basehttp 28724 29516 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:34:03,146 basehttp 28724 30744 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:34:03,150 basehttp 28724 2012 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:34:03,157 log 28724 19728 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:34:03,158 basehttp 28724 19728 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:34:03,159 basehttp 28724 30488 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:34:03,165 log 28724 29516 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:34:03,169 basehttp 28724 29516 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:34:03,170 basehttp 28724 29648 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:35:34,148 basehttp 28724 19728 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:35:34,148 basehttp 28724 2012 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:35:34,149 log 28724 30488 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:35:34,150 basehttp 28724 30488 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:35:34,155 log 28724 29648 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:35:34,156 basehttp 28724 29648 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:35:34,221 basehttp 28724 29516 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:35:34,235 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:36:59,877 log 28724 30744 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:36:59,883 basehttp 28724 30744 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:36:59,887 basehttp 28724 29516 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:36:59,893 basehttp 28724 29648 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:36:59,968 basehttp 28724 2012 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:36:59,969 log 28724 30488 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:36:59,970 basehttp 28724 30488 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:36:59,986 basehttp 28724 29516 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:37:03,548 log 28724 29516 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:37:03,549 basehttp 28724 29516 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:37:03,564 basehttp 28724 2012 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:37:03,633 log 28724 29648 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:37:03,634 basehttp 28724 29648 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:37:03,658 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:37:03,663 basehttp 28724 30488 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:37:03,765 basehttp 28724 30744 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:37:41,180 basehttp 28724 30744 "GET /constructor/api/designs/85/ HTTP/1.1" 200 5073
+INFO 2026-01-15 14:37:41,271 basehttp 28724 30744 "GET /media/news/%D0%B0%D0%B3%D1%80%D0%B0%D1%80%D0%B8%D0%B8.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:37:41,284 basehttp 28724 29648 "GET /media/news/1_%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%8C_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:37:41,386 basehttp 28724 30488 "GET /media/products/images/2026/01/15/4.jpg HTTP/1.1" 304 0
+WARNING 2026-01-15 14:37:51,383 log 28724 30488 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:37:51,383 basehttp 28724 30488 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:37:51,387 basehttp 28724 29648 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:37:51,406 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:37:51,480 log 28724 2012 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:37:51,483 basehttp 28724 2012 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:37:51,488 basehttp 28724 29516 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:37:51,500 basehttp 28724 19728 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:39:28,257 basehttp 28724 29516 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:39:28,270 log 28724 19728 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:39:28,271 basehttp 28724 19728 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:39:28,274 log 28724 2012 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:39:28,274 basehttp 28724 2012 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:39:28,374 basehttp 28724 30488 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:39:28,428 basehttp 28724 30744 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:39:28,430 basehttp 28724 29648 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:40:08,937 basehttp 28724 30744 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:40:08,945 basehttp 28724 2012 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:40:08,950 log 28724 29648 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:40:08,952 basehttp 28724 29648 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:40:08,953 basehttp 28724 19728 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:40:08,953 log 28724 30488 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:40:08,956 basehttp 28724 30488 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:40:08,965 basehttp 28724 29516 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:40:58,304 log 28724 29516 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:40:58,305 basehttp 28724 29516 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:40:58,311 basehttp 28724 30488 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:40:58,327 basehttp 28724 19728 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:40:58,402 log 28724 29648 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:40:58,403 basehttp 28724 29648 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:40:58,404 basehttp 28724 2012 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:40:58,423 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:41:00,070 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true&search=%D0%90%D0%B3%D1%80%D0%BE%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D0%BA HTTP/1.1" 200 17401
+INFO 2026-01-15 14:41:02,130 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:41:03,457 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true&search=%D0%A4%D0%B5%D1%80%D0%BC%D0%B5%D1%80%D0%AA HTTP/1.1" 200 5125
+INFO 2026-01-15 14:41:04,782 basehttp 28724 30744 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:43:26,155 basehttp 28724 2012 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:43:26,156 basehttp 28724 19728 "GET /product/api/brands/ HTTP/1.1" 200 3325
+WARNING 2026-01-15 14:43:26,164 log 28724 30744 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:43:26,166 log 28724 29648 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:43:26,171 basehttp 28724 30744 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:43:26,176 basehttp 28724 29648 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:43:26,179 basehttp 28724 30488 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:43:26,183 basehttp 28724 29516 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+WARNING 2026-01-15 14:44:57,740 log 28724 29516 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:44:57,741 basehttp 28724 29516 "GET /api/auth/user/ HTTP/1.1" 404 4804
+WARNING 2026-01-15 14:44:57,813 log 28724 30744 Not Found: /api/auth/user/
+WARNING 2026-01-15 14:44:57,813 basehttp 28724 30744 "GET /api/auth/user/ HTTP/1.1" 404 4804
+INFO 2026-01-15 14:44:57,865 basehttp 28724 30488 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:44:57,868 basehttp 28724 29648 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:44:57,948 basehttp 28724 30488 "GET /constructor/api/designs/?is_public=true HTTP/1.1" 200 24412
+INFO 2026-01-15 14:44:58,060 basehttp 28724 30744 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:45:04,365 basehttp 28724 5448 "GET /product/api/products/ HTTP/1.1" 200 16626
+INFO 2026-01-15 14:45:04,484 basehttp 28724 30488 "GET /media/products/images/2026/01/15/2_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,492 basehttp 28724 5448 "GET /product/api/products/ HTTP/1.1" 200 16626
+INFO 2026-01-15 14:45:04,499 basehttp 28724 29516 "GET /media/products/images/2026/01/15/7.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,525 basehttp 28724 19728 "GET /media/products/images/2026/01/15/6.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,531 basehttp 28724 2012 "GET /media/products/images/2026/01/15/5.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,533 basehttp 28724 29648 "GET /media/products/images/2026/01/15/1_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,588 basehttp 28724 30744 "GET /media/products/images/2026/01/15/3_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,627 basehttp 28724 30488 "GET /media/products/images/2026/01/15/4_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,651 basehttp 28724 2012 "GET /media/products/images/2026/01/15/3_3.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,652 basehttp 28724 29648 "GET /media/products/images/2026/01/15/2_3.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,660 basehttp 28724 5448 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:45:04,688 basehttp 28724 30744 "GET /media/products/images/2026/01/15/1_3.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,718 basehttp 28724 30488 "GET /media/products/images/2026/01/15/5_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,764 basehttp 28724 29648 "GET /media/products/images/2026/01/15/4_3.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,806 basehttp 28724 2012 "GET /media/products/images/2026/01/15/3_4.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,807 basehttp 28724 19728 "GET /media/products/images/2026/01/15/2_2_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,814 basehttp 28724 26016 "GET /product/api/brands/ HTTP/1.1" 200 3325
+INFO 2026-01-15 14:45:04,826 basehttp 28724 5448 "GET /product/api/categories/ HTTP/1.1" 200 7964
+INFO 2026-01-15 14:45:04,836 basehttp 28724 30488 "GET /media/products/images/2026/01/15/1_2_2.jpg HTTP/1.1" 304 0
+INFO 2026-01-15 14:45:04,893 basehttp 28724 26016 "GET /product/api/categories/ HTTP/1.1" 200 7964
