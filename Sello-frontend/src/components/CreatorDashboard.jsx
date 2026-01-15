@@ -8,7 +8,7 @@ import editIcon from '../assets/icon/edit-icon.svg';
 import deleteIcon from '../assets/icon/delete-icon.svg';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+ 
 import {
   Chart as ChartJS,
   CategoryScale,

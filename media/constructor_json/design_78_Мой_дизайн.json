@@ -18,7 +18,12 @@
         "id": 1768418742674,
         "type": "twoImages",
         "items": [
-          null,
+          {
+            "type": "product",
+            "image": "http://localhost:8000/media/products/images/2025/12/18/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_222103.png",
+            "price": "1.00",
+            "description": "мс"
+          },
           null
         ]
       },
@@ -38,6 +43,7 @@
     }
   },
   "metadata": {
+    "updated_at": "2026-01-14T21:09:25.504000+00:00",
     "json_content": {
       "blocks": [
         {
@@ -54,7 +60,12 @@
           "id": 1768418742674,
           "type": "twoImages",
           "items": [
-            null,
+            {
+              "type": "product",
+              "image": "http://localhost:8000/media/products/images/2025/12/18/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-29_222103.png",
+              "price": "1.00",
+              "description": "мс"
+            },
             null
           ]
         },
@@ -69,7 +80,7 @@
         }
       ],
       "bgColor": "#ffffff",
-      "savedAt": "2026-01-14T19:25:45.745Z",
+      "savedAt": "2026-01-14T21:09:25.298Z",
       "version": "1.0",
       "textColor": "#000000",
       "designName": "Мой дизайн"
@@ -78,7 +89,6 @@
     "blocks_count": 3,
     "is_public": false,
     "created_at": "2026-01-14T19:25:45.801636+00:00",
-    "updated_at": "2026-01-14T19:25:45.810667+00:00",
     "user": "123",
     "user_id": 6,
     "json_file": "/media/constructor_json/design_78_%D0%9C%D0%BE%D0%B9_%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD.json"

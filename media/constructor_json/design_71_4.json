@@ -48,6 +48,22 @@
             "title": "как русалке сесть на шпагат"
           }
         ]
+      },
+      {
+        "id": 1768431278579,
+        "type": "imageRightText",
+        "items": [
+          null
+        ]
+      },
+      {
+        "id": 1768431280099,
+        "type": "bigLeftTwoSmall",
+        "items": [
+          null,
+          null,
+          null
+        ]
       }
     ],
     "colors": {
@@ -56,7 +72,7 @@
     }
   },
   "metadata": {
-    "updated_at": "2026-01-14T13:38:47.742875+00:00",
+    "updated_at": "2026-01-14T22:54:41.937914+00:00",
     "json_content": {
       "blocks": [
         {
@@ -103,16 +119,32 @@
               "title": "как русалке сесть на шпагат"
             }
           ]
+        },
+        {
+          "id": 1768431278579,
+          "type": "imageRightText",
+          "items": [
+            null
+          ]
+        },
+        {
+          "id": 1768431280099,
+          "type": "bigLeftTwoSmall",
+          "items": [
+            null,
+            null,
+            null
+          ]
         }
       ],
       "bgColor": "#ffffff",
-      "savedAt": "2026-01-14T13:38:47.564Z",
+      "savedAt": "2026-01-14T22:54:41.755Z",
       "version": "1.0",
       "textColor": "#000000",
       "designName": "4"
     },
     "has_json_file": true,
-    "blocks_count": 3,
+    "blocks_count": 5,
     "is_public": false,
     "created_at": "2026-01-14T13:21:31.337165+00:00",
     "user": "mila",

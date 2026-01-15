@@ -1,0 +1,52 @@
+{
+  "id": 81,
+  "name": "qwerqwer",
+  "version": "1.0",
+  "design": {
+    "blocks": [
+      {
+        "id": 1768437092625,
+        "type": "fourImages",
+        "items": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "colors": {
+      "text": "#000000",
+      "background": "#ffffff"
+    }
+  },
+  "metadata": {
+    "updated_at": "2026-01-15T00:31:34.552826+00:00",
+    "json_content": {
+      "blocks": [
+        {
+          "id": 1768437092625,
+          "type": "fourImages",
+          "items": [
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "bgColor": "#ffffff",
+      "savedAt": "2026-01-15T00:31:34.481Z",
+      "version": "1.0",
+      "textColor": "#000000",
+      "designName": "qwerqwer"
+    },
+    "has_json_file": true,
+    "blocks_count": 1,
+    "is_public": false,
+    "created_at": "2026-01-15T00:31:12.999843+00:00",
+    "user": "123",
+    "user_id": 6,
+    "json_file": "/media/constructor_json/design_81_qwerqwer.json"
+  }
+}
